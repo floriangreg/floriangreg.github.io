@@ -22,7 +22,7 @@ body {
    
 color:var(--body-tetxt-color);
 font-family: "Times New Roman", Times, serif;
-background-image:url(1280x720.svg);
+background-image:url(..1280x720.svg);
 background-repeat:no-repeat;
 background-position:center;
 background-size:cover;
