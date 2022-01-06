@@ -19,8 +19,8 @@ function visible_dev() {
 
 function start() {
     str="scena-0";
-	visible_dev('scena-4');
-	 hide_dev('scena-0');
+	//visible_dev('scena-4');
+	// hide_dev('scena-0');
 
 }
 function j() {
