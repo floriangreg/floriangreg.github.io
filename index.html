@@ -17,11 +17,12 @@
 <!-- <p class="ta-c fs-20 bl-25">Body</p> -->
 <div class="main-grid container">
 <!-- Start menu -->	
+   
 	  <div id="menu" class="ta-c"> 
-		 <div class="row fs-20">
+		 <div class="row fs-20"> 
 	  	   <div class="col-sm" onclick="j()"><p class="br-bt">Jak uruchomić komputer<br>z dysku USB   </p></div>
 	      <div class="col-sm" onclick="m()"><p class="br-bt">Możliwości systemu<br>nowe horyzonty    </p></div>
-	      <div class="col-sm" onclick="n()"><p class="br-bt">New's From Babel<br>poradnik techniczny  </p></div>
+	      <div class="col-sm" onclick="n()"><p class="br-bt">New's From Babel<br>poradnik techniczny </p></div>
 	      <div class="col"    onclick="l()"><p class="br-bt">Live dla Ciebie<br>co wybrać?           </p></div>
 	      <div class="col"    onclick="k()"><p class="br-bt">Kontakt<br>Serwis                       </p></div>
        </div>
@@ -35,6 +36,12 @@
 	      <p class="p-2">
 			 <i> 🙶&nbsp; teraz, masz to w kieszonce koszuli &nbsp; 🙷</i>
 	    	<br> <h1>🪟</h1>󠀜
+	    	 <div id="result"></div>
+	    	
+	    	
+	    	
+	    	
+	    	
 	      </p>	    	 
 		 </div>            <!-- Kolumna 2 -->
 		        <div class="col-sm-6 p-3 sh"> 
@@ -75,49 +82,49 @@
 <h3 class="sh-t" style="color:#1E90FF; margin-left:5%;margin-right: 65%;">Wejście do systemu<br>BIOS-UEFI:</h3>
    <!-- kolumna-1 -->
 	  <div class="row p-2 fs-22  br-lb br-lt ">
-			<div id="scena-1-row-1-col-1" class="col-sm-4 p-2" >   
+			<div class="col-sm-4 p-2" >   
 			<p class="ta-l fl" >1. Windows 10 z okna logowania<br>
 			<i>jeśli nie posiadamy konta</i></p>
 			</div>
 			
-			<div id="scena-1-row-1-col-2" class="col-sm-6 p-2">
+			<div class="col-sm-6 p-2">
 				<p>naciśnij klawisz <b>Shift</b> i trzymaj,
 				   myszką wywołaj<br> program "<b>Uruchom ponownie</b>", 
 				   trzymaj wciśnięty klawisz <b>Shift</b>, system Windows <br>rozpocznie 
 				   procedurę restartu z wejściem  do BIOS'u UEFI, <br>jeśli taki masz
 				 </p>
 			</div>
-			<div id="scena-1-row-1-col-3" class="col-sm-2 ta-c p-2">
+			<div class="col-sm-2 ta-c p-2">
 			  <p>zobacz film...</p>
 			  <h1>📽️</h1>
 			</div>
      </div>
   <!-- kolumna-2 -->
 	  <div class=" row p-1 fs-22  br-lb">
-			<div id="scena-1-row-2-col-1" class="col-sm-4 p-2" >
+			<div class="col-sm-4 p-2" >
 			  <p class="ta-l fl" >2. Wejście do oprogramowania UEFI<br>
 			  <i>z terminala</i></p>
 			</div>
-			<div id="scena-1-row-2-col-2" class="col-sm-6 p-2">
+			<div class="col-sm-6 p-2">
 				<p>jako administrator wykonaj polecenie:<br><b>shutdown /r /fw /t 0</b></p>
 			</div>
-			<div id="scena-1-row-2-col-3" class="col-sm-2 ta-c p-2">
+			<div class="col-sm-2 ta-c p-2">
 			  <p>zobacz film...</p>
 			  <h1>📽️</h1>
 			</div>
      </div>
    <!-- kolumna-3 -->
 	  <div class=" row p-1 fs-22  br-lb">
-			<div id="scena-1-row-3-col-1" class="col-sm-4 p-2">
+			<div class="col-sm-4 p-2">
 				<p class="ta-l fl">3. Po włączeniu komputera<br>
 				<i>naciskaj odpowiedni klawisz</i>
 				</p> 
 			</div>
 			
-			<div id="scena-1-row-3-col-2" class="col-sm-6 p-2">
+			<div class="col-sm-6 p-2">
 				<p>Del, F2, F8 ,F12, Enter </b>- zależne od producenta sprzętu.</p>
 			</div>
-			<div id="scena-1-row-3-col-3" class="col-sm-2 p-2 ta-c"> 
+			<div class="col-sm-2 p-2 ta-c"> 
 			  <p>zobacz film...</p>
 			  <h1>📽️</h1>
 			</div>
@@ -166,7 +173,8 @@
      <div class="col-sm-3"></div>	 
     
     			   </div> <!-- Start row 2--> 
-   	<div class="row sh-t fs-19"> <div class="col-sm-12">
+   	<div class="row sh-t mb-5 fs-19"> 
+   	 <div class="col-sm-12">
    	      <p style="margin-left: 5%">
 				  Dzięki VM <em><sup>Virtual<br></sup> <sub>Machine</sub></em> możemy korzystać 
 				  <br> z innych systemów operacyjnych 
@@ -258,6 +266,7 @@
 
 <div class="col-sm top-fixed ta-c p-2 m-3 sh-t br-bt " >
    <p  class="sh" onclick="ufo();"> 🛸️ </p> 
+   <p  id="m-menu" class="sh" onclick="minmenu();"> ♒️ </p> 
 	<p  class="sh" onclick="zoomPlus();"> ➕️ </p>
 	<p  class="sh" onclick="home();"> 🏠️ </p>
 	<p  class="sh" onclick="zoomMinus(); "> ➖️ </p>

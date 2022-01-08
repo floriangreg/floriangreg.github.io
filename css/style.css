@@ -1,3 +1,6 @@
+
+
+
 :root {
 --br-bt-border:3px solid #3ea1ff;  /*  #3ea1ff;   jas. niebieski */
 --body-text-color:#F5F5F5;	        /*  #F5F5F5;  --whitesmoke */
@@ -42,10 +45,14 @@ background-attachment:fixed;
 #scena-1, #scena-2, #scena-3 , #scena-4, #scena-5 {
 display: none;
 }
-img {
- //display: block;
-  //margin-left: auto;
-  //margin-right: auto;
+#m-menu {
+display: none;
+}
+}
+.db-c{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #menu {
 position:sticky;

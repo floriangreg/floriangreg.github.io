@@ -1,3 +1,6 @@
+
+
+
 :root {
 --br-bt-border:3px solid #3ea1ff;  /*  #3ea1ff;   jas. niebieski */
 --body-text-color:#F5F5F5;	        /*  #F5F5F5;  --whitesmoke */
@@ -21,7 +24,7 @@
 body {
 color:var(--body-text-color);
 font-family: "Times New Roman", Times, serif;
-background-image:url(../img/1280x720.svg);
+background-image:url(../img/1280.png);
 background-repeat:no-repeat;
 background-position:center;
 background-size:cover;
@@ -42,10 +45,14 @@ background-attachment:fixed;
 #scena-1, #scena-2, #scena-3 , #scena-4, #scena-5 {
 display: none;
 }
-img {
- //display: block;
-  //margin-left: auto;
-  //margin-right: auto;
+#m-menu {
+display: none;
+}
+}
+.db-c{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #menu {
 position:sticky;
@@ -125,8 +132,7 @@ box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .fs-30 {
   font-size: 26px; 
-}.
-fs-32 {
+}.fs-32 {
   font-size: 26px; 
 }
 .fs-34 {
