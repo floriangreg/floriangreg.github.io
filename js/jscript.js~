@@ -64,6 +64,7 @@ document.getElementById("result").innerHTML = size;
 if ( w < 1400 ) {
      	document.getElementById("menu").style.display="none";
      	document.getElementById("m-menu").style.display="block";
+     	v=1;
      }else {
      	document.getElementById("m-menu").style.display="none";
      }
