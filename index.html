@@ -62,11 +62,11 @@
 		        </div>
 	   <!-- Kolumna 3 -->     
     <div class="col-sm-3 p-2 mt-4"> 
-      <img src="img/256.png" class="rounded  mx-auto d-block" style="width:100%" alt=" img not find">
+      <img src="img/256.png" class="rounded  mx-auto d-block" width="100%" height="auto" alt=" img not find">
     </div>
     <!-- row -->
     <div class="col-sm-12 p-2 mt-4"> 
-		<img src="img/xface-d.png" alt=" img not find " class=" mt-5 mx-auto d-block rounded" style="width:100%;"/>
+	<img src="img/xface-d.png" alt="not find " class="mt-5 mx-auto d-block rounded" width="100%" height="auto"/>
 	 </div>
 
   </div>
@@ -181,7 +181,7 @@
 				  <br>np. <i><b>Windows 10</b></i>   
 				  <br>Który może być włączony w Internet lub nie.<br> 
 				</p>	
-	        <img src="img/win-ligin.png" alt=" img not find " class="rounded  mx-auto d-block" style="width:100%" height="auto";>
+	        <img src="img/win-ligin.png" alt=" img not find " class="rounded  mx-auto d-block" width="100%" height="auto">
 	       
 	            <p class="ta-c" > <br><br>
 							        Sterowanie i kopiowanie danych z naszego telefonu za pomocą myszki.<br>
@@ -189,27 +189,27 @@
 							        Intensywnie pracujesz.<br>
 							        
 					</p>	   
-	          <img src="img/tel-fon.png" alt=" img not find " class="rounded  mx-auto d-block" style="width:100%" height="auto";>
+	          <img src="img/tel-fon.png" alt=" img not find " class="rounded  mx-auto d-block" width="100%" height="auto">
 	        
 						 <p style="margin-left: 5%"><br>
 						    <br>Jeśli mamy taką potrzebę, instalację systemu<br> możemy dokonać
 	  						 na dysk stały komputera <br>
 	  						 za pomocą programu Calamares.
 	  					 </p>
-					  	<img class="mx-auto d-block rounded " alt=" img not find " src="img/calamares.png" width="100%" height="auto";> 
+					  	<img class="mx-auto d-block rounded " alt=" img not find " src="img/calamares.png" width="100%" height="auto"> 
 				
 						<p class=" fs-19 sh-t  ta-c  "><br><br>
 						Graficzny instalator programów dla początkujących.<br>
 						<i>- jeśli nie znamy nazw aplikacji -</i>
 						</p>
-					   <img src="img/gsoft.png" class="mx-auto d-block rounded " alt=" img not find " width="100%" height="auto";>
+					   <img src="img/gsoft.png" class="mx-auto d-block rounded " alt=" img not find " width="100%" height="auto">
 			   
 			     
-			       <p class=" fs-19 sh-t  ta-c  "><br><br>
+			       <p class=" fs-19 sh-t  ta-c  "> <br> <br>
 			       Instalator pakietów Synaptic.<br>
 			       <i>- tutaj zobaczymy co się dzieje w czasie instalacji -</i>
-			       <p/div>
-			       <img src="img/synaptic.png" class="mx-auto d-block rounded " alt=" img not find " width="100%" height="auto";>	
+			       </p>
+<img src="img/synaptic.png" class="mx-auto d-block rounded " alt=" img not find " width="100%" height="auto">	
 			   </div><!-- end col 12-->
 			  </div><!-- end row 2-->      	 			
            	 			
@@ -219,13 +219,33 @@
 <!-- End scena-2 -->
 
 <!-- Start scena-3 -->
-<div id="scena-3" class="ta-c  p-5 ">
-	Scena 3
+<div id="scena-3" class="container mt-3 sh p-5 fs-28">
+  <h3 class="p-2 ta-l sh-t" style="color:#1E90FF; margin-left:5%;margin-right: 65%;">Pierwszy krok do <br>personalizacji systemu </h3>
+	<!-- Scena 3 -->
    <div class="row p-2 sh fs-22">
-		<div class="col-sm-3 "> 1 col3 </div>
-		<div class="col-sm-6 bg-c1">2 col6 </div>
-		<div class="col-sm-3 "> 4 col3 </div>
-   </div>
+     <!--   start col.1 -->
+		<div class="col-sm-4 "> 
+		  
+		  Sposób, w jaki działa LUKS, polega na tym, że masz klucz główny, który jest generowany do szyfrowania i istnieje 8 gniazd na klucze, które strzegą klucza głównego. Każde gniazdo klucza może odblokować partycję, jeśli jest włączone, a także może zrzucić klucz główny. Kiedy konfigurujesz hasło do szyfrowania, w rzeczywistości zmieniasz hasło dla gniazda i nie zmieniasz samego klucza głównego, ponieważ wymagałoby to ponownego zaszyfrowania całej partycji. Jeśli ktoś ma dostęp do klucza głównego, może odszyfrować dane bez znajomości hasła.
+		 <br><br>
+		 Identyfikacja LUKS
+Istnieją różne sposoby identyfikacji LUKS. Jednym z najłatwiejszych jest użycie blkid:
+
+# blkid -t TYPE=crypto_LUKS -o device
+/dev/sdb2
+/dev/sdb3
+Polecenie wypisze każde urządzenie/partycję zidentyfikowane na standardowe wyjście oddzielone nową linią. Po zidentyfikowaniu możesz uzyskać więcej danych o celu za pomocą luksDumppolecenia:
+
+# cryptsetup luksDump /dev/sdb3
+Polecenie wyświetli informacje o zastosowanym szyfrowaniu i gniazdach kluczy na określonej partycji (w tym przypadku: /dev/sdb3). 
+		</div> <!-- end col.1 -->
+				<!-- start col.2 -->
+		<div class="col-sm-8 bg-c2">
+		# blkid -t TYPE=crypto_LUKS -o device
+		# cryptsetup luksDump /dev/sdb3
+		</div> <!-- end col.2 -->
+		
+	 </div><!--  end row -->
 </div>	
 <!-- End scena-3 -->
 

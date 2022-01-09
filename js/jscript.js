@@ -9,7 +9,7 @@
  
 // Attaching the event listener function to window's resize event
   window.addEventListener("resize", displayWindowSize);
- 
+  //window.addEventListener("click", displayWindowClick);
     
   // Defining event listener function
     function displayWindowSize() {
@@ -58,13 +58,16 @@ function minmenu(v) {
 
 function start() {
     str="scena-0";
-	//visible_dev('scena-4');
+    
+   // visible_dev('scena-3');
 	// hide_dev('scena-0');
+	 
 document.getElementById("result").innerHTML = size;
 if ( w < 1400 ) {
      	document.getElementById("menu").style.display="none";
      	document.getElementById("m-menu").style.display="block";
      	v=0;
+     	visible_dev('scena-1','scena-2','scena-3','scena-4','scena-5');
      }else {
      	document.getElementById("m-menu").style.display="none";
      }
