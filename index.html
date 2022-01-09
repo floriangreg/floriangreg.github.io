@@ -226,23 +226,11 @@
      <!--   start col.1 -->
 		<div class="col-sm-4 "> 
 		  
-		  Sposób, w jaki działa LUKS, polega na tym, że masz klucz główny, który jest generowany do szyfrowania i istnieje 8 gniazd na klucze, które strzegą klucza głównego. Każde gniazdo klucza może odblokować partycję, jeśli jest włączone, a także może zrzucić klucz główny. Kiedy konfigurujesz hasło do szyfrowania, w rzeczywistości zmieniasz hasło dla gniazda i nie zmieniasz samego klucza głównego, ponieważ wymagałoby to ponownego zaszyfrowania całej partycji. Jeśli ktoś ma dostęp do klucza głównego, może odszyfrować dane bez znajomości hasła.
-		 <br><br>
-		 Identyfikacja LUKS
-Istnieją różne sposoby identyfikacji LUKS. Jednym z najłatwiejszych jest użycie blkid:
-
-# blkid -t TYPE=crypto_LUKS -o device
-/dev/sdb2
-/dev/sdb3
-Polecenie wypisze każde urządzenie/partycję zidentyfikowane na standardowe wyjście oddzielone nową linią. Po zidentyfikowaniu możesz uzyskać więcej danych o celu za pomocą luksDumppolecenia:
-
-# cryptsetup luksDump /dev/sdb3
-Polecenie wyświetli informacje o zastosowanym szyfrowaniu i gniazdach kluczy na określonej partycji (w tym przypadku: /dev/sdb3). 
+		 
 		</div> <!-- end col.1 -->
 				<!-- start col.2 -->
 		<div class="col-sm-8 bg-c2">
-		# blkid -t TYPE=crypto_LUKS -o device
-		# cryptsetup luksDump /dev/sdb3
+		
 		</div> <!-- end col.2 -->
 		
 	 </div><!--  end row -->
