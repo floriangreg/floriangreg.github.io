@@ -17,7 +17,7 @@
      w = window.innerWidth;
      h = window.innerHeight;
      size = "Width: " + w + ", " + "Height: " + h;
-     document.getElementById("result").innerHTML = size;
+     //document.getElementById("result").innerHTML = size;
      if ( w < 1500 ) {
      	document.getElementById("menu").style.display="none";
      	document.getElementById("m-menu").style.display="block";
@@ -62,7 +62,7 @@ function start() {
     visible_dev('scena-0');
 	// hide_dev('scena-0');
 	 
-document.getElementById("result").innerHTML = size;
+//document.getElementById("result").innerHTML = size;
 if ( w < 1400 ) {
      	document.getElementById("menu").style.display="none";
      	document.getElementById("m-menu").style.display="block";

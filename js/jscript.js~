@@ -17,7 +17,7 @@
      w = window.innerWidth;
      h = window.innerHeight;
      size = "Width: " + w + ", " + "Height: " + h;
-     document.getElementById("result").innerHTML = size;
+     //document.getElementById("result").innerHTML = size;
      if ( w < 1500 ) {
      	document.getElementById("menu").style.display="none";
      	document.getElementById("m-menu").style.display="block";
