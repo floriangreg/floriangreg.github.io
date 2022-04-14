@@ -34,6 +34,8 @@ searchlist: lgart
 searchlist: office
 searchlist: result
 searchlist: yout
+searchlist: ofo
+searchlist: ufo
 sync_include_hidden: 0
 snr_replacetype: 0
 bookmarks_filename_mode: 0
@@ -51,9 +53,9 @@ c2e.IE_apos_workaround: 0
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:1542:1440:0:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:0:2604:0:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:9998:9592:1:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:3819:3625:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:0:2521:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:9998:0:1:
 last_filefilter: 
 adv_open_matchname: 0
 editor_tab_width: 3
@@ -64,7 +66,7 @@ spell_insert_entities: 0
 htmlbar_thumbnailwidth: 300
 sync_delete_deprecated: 0
 fb_viewmode: 2
-ssearch_text: yout
+ssearch_text: ufo
 recent_dirs: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
 recent_dirs: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/img
 view_blocks: 1
@@ -89,7 +91,7 @@ replacelist: l
 replacelist: lg
 fb_focus_follow: 1
 htmlbar_view: 1
-savedir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
+savedir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js
 bmarksearchmode: 0
 enable_syntax_scan: 1
 e2c.convert_num: 0

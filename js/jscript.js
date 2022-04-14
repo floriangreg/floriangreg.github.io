@@ -6,10 +6,15 @@
  var w = window.innerWidth;
  var h = window.innerHeight;
  var size = "Width: " + w + ", " + "Height: " + h;
- 
+ var r=0;
 // Attaching the event listener function to window's resize event
   window.addEventListener("resize", displayWindowSize);
   //window.addEventListener("click", displayWindowClick);
+    
+    
+    
+    
+    
     
   // Defining event listener function
     function displayWindowSize() {
@@ -136,7 +141,7 @@ function zoomPlus() {
     y=y+0.05;
     let objHtml = document.getElementById(str);
     objHtml.style.transform="scale("+x+","+y+")";
-   return false;
+   return;
 }
 
 
@@ -146,7 +151,7 @@ function zoomMinus() {
      y=y-0.05;
      let objHtml = document.getElementById(str);
      objHtml.style.transform="scale("+x+","+y+")";
-    return false;
+    return;
 }
 
 function home() {
@@ -154,7 +159,7 @@ function home() {
      x=1.0;
      y=1.0;
      r=0;
-     //str="scena-0";
+     str="scena-0";
      document.getElementById(str).style.WebkitTransform = "rotate("+r+"deg)"; 
     // Code for IE9
     document.getElementById(str).style.msTransform = "rotate("+r+"deg)"; 
@@ -162,20 +167,20 @@ function home() {
     hide_dev('scena-0','scena-1','scena-2','scena-3','scena-4','scena-5');
     visible_dev('scena-0');
     document.documentElement.scrollTop = 0;
-    return r;
+    return;
 }
 
 
 
 
-let r=360;
+
 
 function ufo() {
 	
 	//x=1.0;
 	//y=1.0;
-	if (r==360) { r=0;} r=r+45;
-	if (r==90 )  { document.documentElement.scrollTop =450;}
+	if (r==360) { r=0;} r=r+180;
+	<!-- if (r==90 )  { document.documentElement.scrollTop =450;} -->
 	
 	
 		  // Code for Chrome, Safari, Opera
