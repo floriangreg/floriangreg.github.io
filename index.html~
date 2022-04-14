@@ -268,7 +268,7 @@
    <div class="row p-2  fs-22">
      <!--   start col.1 -->
 		<div class="col-sm-3 fs-22 ta-c"> 
-		  <p>Debian<br>( Uniwersalny )</p>
+		  <p class="sh-t">Debian<br>( Uniwersalny )</p>
 		   
 		  
 		  <img src="img/256.png" class="rounded  mx-auto d-block" style="width:250px;height: 250px"; alt=" img not find">
@@ -278,21 +278,21 @@
 		</div> <!-- end col.1 -->
 		 <!--   start col.2 -->
 		<div class="col-sm-3 fs-22 ta-c"> 
-		 <p> Mint <br>( Biuro/Media )</p>
+		 <p class="sh-t"> Mint <br>( Biuro/Media )</p>
 		  <img src="img/256.png" class="rounded  mx-auto d-block" style="width:250px;height: 250px"; alt=" img not find">
 		  
 		 <p> <br>dla komputerów stacjonarnych i laptopów, jest w pełni wyposażony w aplikacje, których większość ludzi potrzebuje.</p>
 		</div> <!-- end col.2 -->
 		<!--   start col.3 -->
 		<div class="col-sm-3 fs-22 ta-c"> 
-		  <p>Ubuntu Studio<br>( Projekty multimedialne )</p>
+		  <p class="sh-t">Ubuntu Studio<br>( Projekty multimedialne )</p>
 		  <img src="img/256.png" class="rounded  mx-auto d-block" style="width:250px;height: 250px"; alt=" img not find">
 		  <p><br>system operacyjny dla  osób zajmujących się produkcją audio, produkcją wideo, 
 		  projektowaniem graficznym, fotografią i DTP.</p>
 		</div> <!-- end col.3 -->
 		<!--   start col.4 -->
 		<div class="col-sm-3 fs-22 ta-c"> 
-		  <p>Kali<br>(  )</p>
+		  <p class="sh-t">Kali<br>( 😻 )</p>
 		   <img src="img/128.png" class="rounded  mx-auto d-block" style="width:250px;height: 250px"; alt=" img not find">
 		   <p><br>dla specjalistów do spraw bezpieczeństwa.<br>Zbiór oprogramowania do penetracji cyberprzestrzeni.</p>
 		</div> <!-- end col.4 -->

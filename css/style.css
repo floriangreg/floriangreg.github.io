@@ -59,6 +59,8 @@ position:sticky;
 //position: fixed;
 top: 15px;
 z-index: 1;
+margin-left: 12%;
+margin-right: 12%;
 }
 
 .bl-25 {

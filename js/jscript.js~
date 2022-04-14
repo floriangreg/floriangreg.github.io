@@ -18,7 +18,7 @@
      h = window.innerHeight;
      size = "Width: " + w + ", " + "Height: " + h;
      document.getElementById("result").innerHTML = size;
-     if ( w < 1400 ) {
+     if ( w < 1500 ) {
      	document.getElementById("menu").style.display="none";
      	document.getElementById("m-menu").style.display="block";
      } else {
@@ -59,15 +59,15 @@ function minmenu(v) {
 function start() {
     str="scena-0";
     
-    visible_dev('scena-3');
-	 hide_dev('scena-0');
+    visible_dev('scena-0');
+	// hide_dev('scena-0');
 	 
 document.getElementById("result").innerHTML = size;
 if ( w < 1400 ) {
      	document.getElementById("menu").style.display="none";
      	document.getElementById("m-menu").style.display="block";
      	v=0;
-     	visible_dev('scena-1','scena-2','scena-3','scena-4','scena-5');
+     	//visible_dev('scena-1','scena-2','scena-3','scena-4','scena-5');
      }else {
      	document.getElementById("m-menu").style.display="none";
      }
@@ -82,6 +82,7 @@ function j() {
     str="scena-1";
 //window.scrollTo(0, 0);
 document.documentElement.scrollTop = 1;
+
 }
 function m() {
     hide_dev('scena-0','scena-1','scena-3','scena-4','scena-5');
@@ -106,6 +107,7 @@ function l() {
  // document.documentElement.scrollTop = 1; // 
   //window.scrollTo(0, 0);
    str="scena-4";
+   document.documentElement.scrollTop = 1;
 } 
 function k() {
     hide_dev('scena-0','scena-1','scena-2','scena-3','scena-4');
@@ -149,10 +151,10 @@ function zoomMinus() {
 
 function home() {
    
-     x=1;
-     y=1;
+     x=1.0;
+     y=1.0;
      r=0;
-     str="scena-0";
+     //str="scena-0";
      document.getElementById(str).style.WebkitTransform = "rotate("+r+"deg)"; 
     // Code for IE9
     document.getElementById(str).style.msTransform = "rotate("+r+"deg)"; 
@@ -173,6 +175,8 @@ function ufo() {
 	//x=1.0;
 	//y=1.0;
 	if (r==360) { r=0;} r=r+45;
+	if (r==90 )  { document.documentElement.scrollTop =450;}
+	
 	
 		  // Code for Chrome, Safari, Opera
     document.getElementById(str).style.WebkitTransform = "rotate("+r+"deg)"; 
