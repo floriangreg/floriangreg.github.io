@@ -41,6 +41,7 @@ function hide_dev() {
 }
 function visible_dev() {
   //let i=0;
+   
     for(let i in arguments){
         document.getElementById(arguments[i]).style.display = "block";
     }
@@ -158,11 +159,11 @@ function home() {
    
      x=1.0;
      y=1.0;
-     r=0;
+     var rr=0;
      str="scena-0";
-     document.getElementById(str).style.WebkitTransform = "rotate("+r+"deg)"; 
+     document.getElementById(str).style.WebkitTransform = "rotate("+rr+"deg)"; 
     // Code for IE9
-    document.getElementById(str).style.msTransform = "rotate("+r+"deg)"; 
+    document.getElementById(str).style.msTransform = "rotate("+rr+"deg)"; 
       
     hide_dev('scena-0','scena-1','scena-2','scena-3','scena-4','scena-5');
     visible_dev('scena-0');
@@ -180,14 +181,14 @@ function ufo() {
 	//x=1.0;
 	//y=1.0;
 	if (r==360) { r=0;} r=r+180;
-	<!-- if (r==90 )  { document.documentElement.scrollTop =450;} -->
+	//<!-- if (r==90 )  { document.documentElement.scrollTop =450;} -->
 	
 	
 		  // Code for Chrome, Safari, Opera
     document.getElementById(str).style.WebkitTransform = "rotate("+r+"deg)"; 
     // Code for IE9
     document.getElementById(str).style.msTransform = "rotate("+r+"deg)"; 
-	
+	return;
 }
 
 
