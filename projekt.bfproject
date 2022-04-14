@@ -27,24 +27,29 @@ view_line_numbers: 1
 searchlist: osą
 searchlist: debian
 searchlist: dlna
+searchlist: office
+searchlist: teraz
+searchlist: sm
+searchlist: lgart
 sync_include_hidden: 0
 snr_replacetype: 0
 bookmarks_filename_mode: 0
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:10961:an<br>( Uniwersalny )</p>:13325:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:1837:-w.png" alt=" img not find " class="mt-5:13448:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:11096:an<br>( Uniwersalny )</p>:13448:
 adv_open_recursive: 0
 ssearch_regex: 0
 ssearch_unescape: 0
 show_mbhl: 1
 view_blockstack: 1
-leftpanel_active_tab: 2
+leftpanel_active_tab: 1
 default_mime_type: text/plain
 c2e.IE_apos_workaround: 0
-recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css
-recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:1601:1239:1:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:0:2696:0:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:9138:8779:0:
+recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js
+recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:611:46:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:0:2652:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:10348:12609:1:
 last_filefilter: 
 adv_open_matchname: 0
 editor_tab_width: 3
@@ -55,8 +60,9 @@ spell_insert_entities: 0
 htmlbar_thumbnailwidth: 300
 sync_delete_deprecated: 0
 fb_viewmode: 2
-ssearch_text: dlna
+ssearch_text: lg
 recent_dirs: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
+recent_dirs: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/img
 view_blocks: 1
 editor_indent_wspaces: 0
 view_statusbar: 1
@@ -75,9 +81,11 @@ view_left_panel: 1
 ssearch_dotmatchall: 0
 e2c.convert_xml: 1
 ssearch_casesens: 0
+replacelist: l
+replacelist: lg
 fb_focus_follow: 1
 htmlbar_view: 1
-savedir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js
+savedir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
 bmarksearchmode: 0
 enable_syntax_scan: 1
 e2c.convert_num: 0
