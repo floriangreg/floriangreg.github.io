@@ -24,9 +24,6 @@ snr_escape_chars: 0
 autoindent: 1
 convertcolumn_horizontally: 0
 view_line_numbers: 1
-searchlist: office
-searchlist: teraz
-searchlist: sm
 searchlist: lgart
 searchlist: office
 searchlist: result
@@ -39,12 +36,15 @@ searchlist: skonfigu
 searchlist: float
 searchlist: scena5
 searchlist: scena 5
+searchlist: 1500
+searchlist: yuotu
+searchlist: yout
 sync_include_hidden: 0
 snr_replacetype: 0
 bookmarks_filename_mode: 0
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:13858:Scena 5:14800:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6873:\t<p class="ta-c" >Zainstalowano i skonfi:14800:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:12260:an<br>( Uniwersalny )</p>:14800:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:13997:Scena 5:14887:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6883:\t<p class="ta-c" >Zainstalowano i skonfi:14887:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:12399:an<br>( Uniwersalny )</p>:14887:
 adv_open_recursive: 0
 ssearch_regex: 0
 ssearch_unescape: 0
@@ -56,9 +56,9 @@ c2e.IE_apos_workaround: 0
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:3868:3254:0:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:0:2208:0:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:13998:13374:1:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:647:379:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:1167:776:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:11375:10871:1:
 last_filefilter: 
 adv_open_matchname: 0
 editor_tab_width: 3
@@ -69,7 +69,7 @@ spell_insert_entities: 0
 htmlbar_thumbnailwidth: 300
 sync_delete_deprecated: 0
 fb_viewmode: 2
-ssearch_text: scena 5
+ssearch_text: yout
 recent_dirs: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
 recent_dirs: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/img
 view_blocks: 1

@@ -23,7 +23,7 @@
      h = window.innerHeight;
      size = "Width: " + w + ", " + "Height: " + h;
      //document.getElementById("result").innerHTML = size;
-     if ( w < 1500 ) {
+     if ( w < 1450 ) {
      	document.getElementById("menu").style.display="none";
      	document.getElementById("m-menu").style.display="block";
      } else {

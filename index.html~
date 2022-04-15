@@ -18,7 +18,7 @@
 
 <!-- Start menu -->	
    
-	  <div id="menu" class="ta-c"> 
+	  <div id="menu" class=" ta-c"> 
 		 <div class="row fs-20"> 		 
 	  	   <div class="col-lg" onclick="j()"><p class="br-bt">Jak uruchomić komputer<br>z dysku USB   </p></div>
 	      <div class="col-lg" onclick="m()"><p class="br-bt">Nowe horyzonty<br>systemu            </p></div>
@@ -31,7 +31,7 @@
 <!-- ////////////////////// -->
 <div class="main-grid container">
 <!-- Start scena-0 -->	
- <div id="scena-0" class=" ta-c fs-22">
+ <div id="scena-0" class="container ta-c fs-22">
    <div class="row mt-2 p-5 sh sh-t" > <!-- row -->    
      
 	    <div class="col-lg-3 mt-4"> <!-- Kolumna 1 -->
@@ -275,14 +275,17 @@
 		to mały program wiersza poleceń do pobierania filmów z YouTube innych witryn.</p> 
 		<p>dla wygody utworzono link  yy -> /usr/bin/youtube-dl	</p> 
 		<p>Kilka przydatnych poleceń:</p>
-		<blockquote>
-		<p class="sh-t"
-		style="color: grey;">
-		   <b>youtube-dl -F    https://youtu.be/f4Mc-NYPHaQ </b> <i>-- lista plików formatów możliwa do pobrania</i><br>
-		   <b>youtube-dl -f 18 https://youtu.be/f4Mc-NYPHaQ </b> <i>-- pobiera plik nr.18 np. format mp4.</i><br>
-		   <b>youtube-dl       https://youtu.be/f4Mc-NYPHaQ </b> <i>-- domyśnie pobiera najlepszą jakość</i>.<br>
-		</p>
-		</blockquote>
+			
+		<!--  -->
+		 <div class="row sh-t " style="color: grey;">
+		  <div class="col-lg-12">
+		    <b>youtube-dl -F &nbsp;&nbsp;https://youtu.be/f4Mc-NYPHaQ </b>  <i class="fs-19">-- lista plików formatów możliwa do pobrania</i><br>
+		    <b>youtube-dl -f 18 https://youtu.be/f4Mc-NYPHaQ </b><i class="fs-19">-- pobiera plik nr.18 np. format mp4.</i><br>
+		    <b>youtube-dl https://youtu.be/f4Mc-NYPHaQ </b><i class="fs-19">-- domyśnie pobiera najlepszą jakość</i>.<br>
+		  </div>
+		 </div>
+		<!--  -->
+		<br>
 		<p>Nasz ulubiony teledysk jest automatycznie zapisany do katalogu serwera DLNA i możemy się nim cieszyć <br>
 		na dużym ekranie naszego smart TV.</p>
 		<img src="img/yy.png" alt=" img not find " class="mt-5 mx-auto d-block rounded" style="width:100%;"/>
@@ -342,12 +345,14 @@
 
 	Scena 5
 	  <div class="row p-2 sh fs-22">
-	   <div class="col-lg-4 fs-22 ta-c"> 
-	   <!--  😺🙄 mój Windows ciągle pisze Czekaj...?<br>
-	    <br>nie martw się <br>w tym czasie wysyła dane z twojego komputera do firmy <br>aby lepiej Cię poznać. -->
-	    😀😁😂😃😄😅😆😇😈😸😰😱😲😳😴😵😽😶😾😷😿
+	     <div class="col-lg-4 fs-22 ta-c"> 
+	       ☎️
 	    
-	   </div>
+	     </div>
+	     <div class="col-lg-8 fs-22 ta-c"> 
+	      ✉️
+	    
+	     </div>
 	  </div>
 </div>	
 <!-- End scena-5 -->
