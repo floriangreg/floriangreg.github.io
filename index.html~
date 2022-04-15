@@ -38,7 +38,7 @@
 	    
 	      <div class="row " > <!-- row -->
 			  <i> "teraz, masz to w kieszonce koszuli"  </i>
-			  <img src="img/l-w.png" alt=" img not find " class="mt-3"/>
+			  <img src="img/l-w.png" alt=" img not find " class="mt-5"/>
 			 <!--  <div id="result"></div> --> <!--  wyświetla dł.i szer. ekranu -->
 			</div> <!--end row -->
 			 
@@ -342,7 +342,12 @@
 
 	Scena 5
 	  <div class="row p-2 sh fs-22">
-	   
+	   <div class="col-lg-4 fs-22 ta-c"> 
+	   <!--  😺🙄 mój Windows ciągle pisze Czekaj...?<br>
+	    <br>nie martw się <br>w tym czasie wysyła dane z twojego komputera do firmy <br>aby lepiej Cię poznać. -->
+	    😀😁😂😃😄😅😆😇😈😸😰😱😲😳😴😵😽😶😾😷😿
+	    
+	   </div>
 	  </div>
 </div>	
 <!-- End scena-5 -->
