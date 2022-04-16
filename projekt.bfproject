@@ -1,4 +1,4 @@
-opendir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js
+opendir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
 filegloblist: *.xml
 filegloblist: *.txt
 filegloblist: *.shtml
@@ -42,9 +42,9 @@ searchlist: scena 5
 sync_include_hidden: 0
 snr_replacetype: 0
 bookmarks_filename_mode: 0
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14105:Scena 5:15423:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6880:\t<p class="ta-c" >Zainstalowano i skonfi:15423:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:12466:an<br>( Uniwersalny )</p>:15423:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14113:Scena 5:15507:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6887:\t<p class="ta-c" >Zainstalowano i skonfi:15507:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:12473:an<br>( Uniwersalny )</p>:15507:
 adv_open_recursive: 0
 ssearch_regex: 0
 ssearch_unescape: 0
@@ -53,12 +53,12 @@ view_blockstack: 1
 leftpanel_active_tab: 2
 default_mime_type: text/plain
 c2e.IE_apos_workaround: 0
+recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css
-recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:1725:1262:1:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:1167:383:0:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14753:14192:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14102:13612:1:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:1167:233:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:1725:1076:0:
 last_filefilter: 
 adv_open_matchname: 0
 editor_tab_width: 3
@@ -94,7 +94,7 @@ replacelist: l
 replacelist: lg
 fb_focus_follow: 1
 htmlbar_view: 1
-savedir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js
+savedir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
 bmarksearchmode: 0
 enable_syntax_scan: 1
 e2c.convert_num: 0
@@ -105,8 +105,9 @@ snr_casesens: 0
 charmap_block: 285
 e2c.convert_symbol: 0
 name: Nowy projekt
-view_cline: 1
+view_cline: 0
 c2e.convert_iso: 0
 snippets_show_as_menu: 1
 spell_lang: de
+snr_scope: 0
 snr_type: 0

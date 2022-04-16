@@ -37,7 +37,7 @@
 	    <div class="col-lg-3 mt-4"> <!-- Kolumna 1 -->
 	    
 	      <div class="row " > <!-- row -->
-			  <i> "teraz, masz to w kieszonce koszuli"  </i>
+			  <i> "teraz, masz to w kieszonce  &nbsp;koszuli"  </i>
 			  <img src="img/l-w.png" alt=" img not find " class="mt-5"/>
 			 <!--  <div id="result"></div> --> <!--  wyświetla dł.i szer. ekranu -->
 			</div> <!--end row -->
@@ -341,20 +341,22 @@
 <!-- End scena-4 -->
 
 <!-- start scena-5 -->
-<div id="scena-5" class="ta-c  p-5 ">
+<div id="scena-5" class="ta-c mt-3 p-5 ">
 
 <!-- 	Scena 5 -->
 	  <div class="row p-2 sh fs-22">
-	     <div class="col-lg-4 fs-22 ta-c"> 
-	       <h3 class="p-2 ta-l sh-t ta-c" style="color:#1E90FF;">Sytemy Operacyjne Linux</h3>
-	        <p class="ta-l "style="margin-left: 12%"; > Tux Technic<br>Florian Greg </p>
-	        <h5 class="ta-l sh-t"style="margin-left: 12%"; > 
-	        <a href="mailto:fg.list.na@gmail.com">✉️</a>&nbsp;&nbsp;fg.list.na@gmail.com
+	     <div class="col-lg-4 "> 
+	       <h3 class="sh-t ta-c" style="color:#1E90FF;">Systemy Operacyjne</h3>
+	     <!--    <p class="sh-t ta-c" style="color:#1E90FF;">Sieci komputerowe</p> -->
+	        <p class="ta-l "style="margin-left: 16%"; >Florian Greg </p>
+	        <h5 class="ta-l sh-t"style="margin-left: 16%"; > 
+	        ✉️ &nbsp;&nbsp;
+	        <a href="mailto:fg.list.na@gmail.com">fg.list.na@gmail.com</a>
 	        <br> 
 	        ☎️ &nbsp;&nbsp;882 995 523
 	        </h5>
 	        
-	       
+	       <!--  Tux Technic -->
 	   
 	     </div>
 	     <div class="col-lg-8 fs-22 ta-c"> 
