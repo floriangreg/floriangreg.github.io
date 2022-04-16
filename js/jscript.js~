@@ -67,7 +67,7 @@ function minmenu(v) {
 
 function start() {
     str="scena-0";
-    document.getElementById("foot").innerHTML ="Autor Florian Greg 🖌️ " + new Date().getFullYear() + " </p>"; 
+    document.getElementById("foot").innerHTML ="Autor: Florian Greg 🖌️ " + new Date().getFullYear() + " </p>"; 
     //document.getElementById("foot").innerHTML ="<p>&copy;  " + new Date().getFullYear() + " Autor Florian Greg.</p>";  
     visible_dev('scena-0');
 	// hide_dev('scena-0');
@@ -123,8 +123,9 @@ function k() {
     hide_dev('scena-0','scena-1','scena-2','scena-3','scena-4');
     visible_dev('scena-5');
     //document.body.scrollTop = 1; // For Safari
-  document.documentElement.scrollTop = 1; // 
-   str="scena-5";
+     str="scena-5";
+  document.documentElement.scrollTop = 0; 
+  
 } 
 function goTop() {
     //document.body.scrollTop = 0;

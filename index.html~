@@ -346,16 +346,16 @@
 <!-- 	Scena 5 -->
 	  <div class="row p-2">
 	     <div class="col-lg-5 "> 
-	       <h3 class="sh-t ta-c" style="color:#1E90FF;">Systemy Operacyjne</h3>
-	        <p class="sh-t ta-c fs-20" style="color:#1E90FF;">Sieci komputerowe</p>
-	        <p class="ta-l fs-19 "style="margin-left: 12%"; >Florian Greg </p>
-	        <h5 class="ta-l sh-t"style="margin-left: 12%"; > 
+	       <h3 class="sh-t ta-l" style="color:#1E90FF; margin-left: 5%;">Systemy Operacyjne</h3>
+	        <p class="sh-t ta-l fs-20" style="color:#1E90FF;margin-left: 5%;">Sieci komputerowe</p>
+	        <p  class="ta-l fs-19 "style="margin-left: 7%"; >Florian Greg </p>
+	        <h5 class="ta-l sh-t  "style="margin-left: 5%"; > 
 	        ✉️ &nbsp;&nbsp;
 	        <a href="mailto:fg.list.na@gmail.com">fg.list.na@gmail.com</a>
 	        <br> 
 	        ☎️ &nbsp;&nbsp; 882 995 523
 	        </h5>
-	        <br><br><br>
+	        <br><br>
 	       <!--  Tux Technic -->
 	   
 	     </div>

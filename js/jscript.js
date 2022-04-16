@@ -91,7 +91,7 @@ function j() {
     visible_dev('scena-1');
     str="scena-1";
 //window.scrollTo(0, 0);
-document.documentElement.scrollTop = 1;
+document.documentElement.scrollTop = 0;
 
 }
 function m() {
@@ -99,7 +99,7 @@ function m() {
 	 visible_dev('scena-2');
 	 //document.body.scrollTop = 1; // For Safari
 	 //window.scrollTo(0, 0);
-    document.documentElement.scrollTop = 1; // 
+    document.documentElement.scrollTop = 0; // 
    str="scena-2";
   
 }
@@ -107,7 +107,7 @@ function n() {
     hide_dev('scena-0','scena-1','scena-2','scena-4','scena-5');
 	 visible_dev('scena-3');
 	 //document.body.scrollTop = 1; // For Safari
-  document.documentElement.scrollTop = 1; // 
+  document.documentElement.scrollTop = 0; // 
    str="scena-3";
 }
 function l() {
@@ -117,14 +117,15 @@ function l() {
  // document.documentElement.scrollTop = 1; // 
   //window.scrollTo(0, 0);
    str="scena-4";
-   document.documentElement.scrollTop = 1;
+   document.documentElement.scrollTop = 0;
 } 
 function k() {
     hide_dev('scena-0','scena-1','scena-2','scena-3','scena-4');
     visible_dev('scena-5');
     //document.body.scrollTop = 1; // For Safari
-  document.documentElement.scrollTop = 1; // 
-   str="scena-5";
+     str="scena-5";
+  document.documentElement.scrollTop = 0; 
+  
 } 
 function goTop() {
     //document.body.scrollTop = 0;
