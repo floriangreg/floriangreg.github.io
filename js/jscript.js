@@ -23,12 +23,14 @@
      h = window.innerHeight;
      size = "Width: " + w + ", " + "Height: " + h;
      //document.getElementById("result").innerHTML = size;
-     if ( w < 1450 ) {
+     if ( w < 1290 ) {
      	document.getElementById("menu").style.display="none";
      	document.getElementById("m-menu").style.display="block";
+     	v=0;
      } else {
      	  document.getElementById("menu").style.display="block";
      	  document.getElementById("m-menu").style.display="none";
+     	  v=1;
        }
     }   
  
