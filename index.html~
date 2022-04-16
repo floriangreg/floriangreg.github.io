@@ -344,22 +344,22 @@
 <div id="scena-5" class="container mt-3 sh p-5 ">
 
 <!-- 	Scena 5 -->
-	  <div class="row p-2 sh fs-22">
-	     <div class="col-lg-4 "> 
+	  <div class="row p-2">
+	     <div class="col-lg-5 "> 
 	       <h3 class="sh-t ta-c" style="color:#1E90FF;">Systemy Operacyjne</h3>
-	     <!--    <p class="sh-t ta-c" style="color:#1E90FF;">Sieci komputerowe</p> -->
-	        <p class="ta-l "style="margin-left: 16%"; >Florian Greg </p>
-	        <h5 class="ta-l sh-t"style="margin-left: 16%"; > 
+	        <p class="sh-t ta-c fs-20" style="color:#1E90FF;">Sieci komputerowe</p>
+	        <p class="ta-l fs-19 "style="margin-left: 12%"; >Florian Greg </p>
+	        <h5 class="ta-l sh-t"style="margin-left: 12%"; > 
 	        ✉️ &nbsp;&nbsp;
 	        <a href="mailto:fg.list.na@gmail.com">fg.list.na@gmail.com</a>
 	        <br> 
-	        ☎️ &nbsp;&nbsp;882 995 523
+	        ☎️ &nbsp;&nbsp; 882 995 523
 	        </h5>
-	        
+	        <br><br><br>
 	       <!--  Tux Technic -->
 	   
 	     </div>
-	     <div class="col-lg-8 fs-22 ta-c"> 
+	     <div class="col-lg-7 fs-22 ta-c"> 
 	     
 	    
 	     </div>
