@@ -345,7 +345,7 @@
 
 <!-- 	Scena 5 -->
 	  <div class="row p-2">
-	     <div class="col-lg-5 "> 
+	     <div class="col-lg-11 "> 
 	       <h3 class="sh-t ta-l" style="color:#1E90FF; margin-left: 5%;">Systemy Operacyjne</h3>
 	        <p class="sh-t ta-l fs-20" style="color:#1E90FF;margin-left: 6%;">Sieci komputerowe</p>
 	        <p  class="ta-l fs-19 "style="margin-left: 7%"; >Florian Greg </p>
@@ -359,7 +359,7 @@
 	       <!--  Tux Technic -->
 	   
 	     </div>
-	     <div class="col-lg-7 fs-22 ta-c"> 
+	     <div class="col-lg-1 fs-22 ta-c"> 
 	     
 	    
 	     </div>
