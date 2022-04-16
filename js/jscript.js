@@ -113,10 +113,7 @@ function n() {
 function l() {
 	 hide_dev('scena-0','scena-1','scena-2','scena-3','scena-5');
     visible_dev('scena-4');
-   document.body.scrollTop = 1; // For Safari
- // document.documentElement.scrollTop = 1; // 
-  //window.scrollTo(0, 0);
-   str="scena-4";
+    str="scena-4";
    document.documentElement.scrollTop = 0;
 } 
 function k() {
@@ -170,7 +167,7 @@ function home() {
     // Code for IE9
     document.getElementById(str).style.msTransform = "rotate("+rr+"deg)"; 
       
-    hide_dev('scena-0','scena-1','scena-2','scena-3','scena-4','scena-5');
+    hide_dev('scena-1','scena-2','scena-3','scena-4','scena-5');
     visible_dev('scena-0');
     document.documentElement.scrollTop = 0;
     return;
