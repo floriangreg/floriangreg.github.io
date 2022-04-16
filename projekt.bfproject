@@ -1,4 +1,4 @@
-opendir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
+opendir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js
 filegloblist: *.xml
 filegloblist: *.txt
 filegloblist: *.shtml
@@ -24,7 +24,6 @@ snr_escape_chars: 0
 autoindent: 1
 convertcolumn_horizontally: 0
 view_line_numbers: 1
-searchlist: r=0
 searchlist: skp
 searchlist: skonfigu
 searchlist: float
@@ -39,12 +38,13 @@ searchlist: wszystkich
 searchlist: koszul
 searchlist: autor
 searchlist: 88
+searchlist: to syst
 sync_include_hidden: 0
 snr_replacetype: 0
 bookmarks_filename_mode: 0
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14122:Scena 5:15476:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6885:\t<p class="ta-c" >Zainstalowano i skonfi:15476:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:12471:an<br>( Uniwersalny )</p>:15476:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14118:Scena 5:15472:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6881:\t<p class="ta-c" >Zainstalowano i skonfi:15472:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:12467:an<br>( Uniwersalny )</p>:15472:
 adv_open_recursive: 0
 ssearch_regex: 0
 ssearch_unescape: 0
@@ -54,11 +54,11 @@ leftpanel_active_tab: 3
 default_mime_type: text/plain
 c2e.IE_apos_workaround: 0
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html
-recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14415:13986:1:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:1167:11:0:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:2505:1617:0:
+recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:2505:1611:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:1167:0:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:2423:2010:1:
 last_filefilter: 
 adv_open_matchname: 0
 editor_tab_width: 3
@@ -69,7 +69,7 @@ spell_insert_entities: 0
 htmlbar_thumbnailwidth: 300
 sync_delete_deprecated: 0
 fb_viewmode: 2
-ssearch_text: 88
+ssearch_text: to sys
 recent_dirs: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
 recent_dirs: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/img
 view_blocks: 1
