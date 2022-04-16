@@ -67,7 +67,7 @@ function minmenu(v) {
 
 function start() {
     str="scena-0";
-    document.getElementById("foot").innerHTML ="Autor Florian Greg 🖌️ " + new Date().getFullYear() + " </p>"; 
+    document.getElementById("foot").innerHTML ="Autor: Florian Greg 🖌️ " + new Date().getFullYear() + " </p>"; 
     //document.getElementById("foot").innerHTML ="<p>&copy;  " + new Date().getFullYear() + " Autor Florian Greg.</p>";  
     visible_dev('scena-0');
 	// hide_dev('scena-0');

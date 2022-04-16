@@ -37,7 +37,7 @@
 	    <div class="col-lg-3 mt-4"> <!-- Kolumna 1 -->
 	    
 	      <div class="row " > <!-- row -->
-			  <i> "teraz, masz to w kieszonce  &nbsp;koszuli"  </i>
+			  <i> "teraz, masz to w kieszonce koszuli"  </i>
 			  <img src="img/l-w.png" alt=" img not find " class="mt-5"/>
 			 <!--  <div id="result"></div> --> <!--  wyświetla dł.i szer. ekranu -->
 			</div> <!--end row -->
@@ -52,9 +52,9 @@
 									
 					  <img src="img/hh-usb-fit-256.png" alt=" img not find " class="mb-4 mt-3 mx-auto d-block rounded" style="width:100%;"/>
 							
-							   <p>
+							   <p><br>
 						         To system zaszyfrowany, 🗝️ który startuje  z dysku USB <br> z zapisem danych <br>
-						          na wszyskich komputerach z procesorem <br>Intel lub AMD.<br>
+						          na wszystkich komputerach z procesorem <br>Intel lub AMD.<br>
 						        <br>
 						        <i>
 						    	    Systemu nie można uruchomić ani odczytać dysku z innego systemu <br>bez znajomości hasła.<br>
@@ -341,7 +341,7 @@
 <!-- End scena-4 -->
 
 <!-- start scena-5 -->
-<div id="scena-5" class="ta-c mt-3 p-5 ">
+<div id="scena-5" class="container mt-3 sh p-5 ">
 
 <!-- 	Scena 5 -->
 	  <div class="row p-2 sh fs-22">
