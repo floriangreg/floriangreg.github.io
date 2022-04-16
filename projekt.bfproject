@@ -42,9 +42,9 @@ searchlist: kontakt
 sync_include_hidden: 0
 snr_replacetype: 0
 bookmarks_filename_mode: 0
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14106:Scena 5:14995:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6886:\t<p class="ta-c" >Zainstalowano i skonfi:14995:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:12472:an<br>( Uniwersalny )</p>:14995:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14100:Scena 5:14989:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6880:\t<p class="ta-c" >Zainstalowano i skonfi:14989:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:12466:an<br>( Uniwersalny )</p>:14989:
 adv_open_recursive: 0
 ssearch_regex: 0
 ssearch_unescape: 0
@@ -58,7 +58,7 @@ recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscr
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css
 openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:940:463:0:
 openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:1167:540:0:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:1397:806:1:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:1411:806:1:
 last_filefilter: 
 adv_open_matchname: 0
 editor_tab_width: 3
@@ -94,7 +94,7 @@ replacelist: l
 replacelist: lg
 fb_focus_follow: 1
 htmlbar_view: 1
-savedir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js
+savedir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
 bmarksearchmode: 0
 enable_syntax_scan: 1
 e2c.convert_num: 0
