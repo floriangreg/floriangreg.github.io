@@ -375,13 +375,13 @@
 	     </div>
 	     
 	       <div class="col-lg-3"> 
-	       <h3>🅁🄴🄺🄻🄰🄼🄰</h3>   
+	       <h3 class="ta-l" >🅁🄴🄺🄻🄰🄼🄰</h3>   
 	          <img src="img/skole_tux.png" alt=" img not find " class="rounded  float-left" >
 	       </div>
 	       <div class="col-lg-3 fs-22"><br> 
 	         <p>Debian Live USB</p> 
 	         <p>➕️ edu Skolinux</p>
-  			   <i class="fs-14" >"do nauki dla każdego"</i> 👨‍🎓️👩‍🎓️
+  			   <i class="fs-14" >"do nauki dla każdego"</i>👨‍🎓️👩‍🎓️
   			 </div>
 	     
 	  </div>
