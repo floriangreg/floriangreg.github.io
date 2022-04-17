@@ -180,8 +180,8 @@ function home() {
 
 function ufo() {
 	
-	//x=1.0;
-	//y=1.0;
+	x=1.0;
+	y=1.0;
 	if (r==360) { r=0;} r=r+180;
 	//<!-- if (r==90 )  { document.documentElement.scrollTop =450;} -->
 	

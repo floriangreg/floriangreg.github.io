@@ -71,7 +71,7 @@ function start() {
     //document.getElementById("foot").innerHTML ="<p>&copy;  " + new Date().getFullYear() + " Autor Florian Greg.</p>";  
     visible_dev('scena-0');
 	// hide_dev('scena-0');
-	 
+	 document.documentElement.scrollTop = 1;
 //document.getElementById("result").innerHTML = size;
 if ( w < 1400 ) {
      	document.getElementById("menu").style.display="none";
