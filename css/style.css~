@@ -209,9 +209,9 @@ font-size: 35px;
 z-index: 2;
 }
 
-.bg-c1{
+.bg-w{
 	background-color: burlywood;
 }
-.bg-c2{
+.bg-g{
 	background-color: grey;
 }
