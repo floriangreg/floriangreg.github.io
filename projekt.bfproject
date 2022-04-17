@@ -42,23 +42,24 @@ searchlist: 250px
 sync_include_hidden: 0
 snr_replacetype: 0
 bookmarks_filename_mode: 0
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14036:Scena 5:15421:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6904:\t<p class="ta-c" >Zainstalowano i skonfi:15421:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:12394:an<br>( Uniwersalny )</p>:15421:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:15302:Debian Live User:16228:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14036:Scena 5:16228:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6904:\t<p class="ta-c" >Zainstalowano i skonfi:16228:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:12394:an<br>( Uniwersalny )</p>:16228:
 adv_open_recursive: 0
 ssearch_regex: 0
 ssearch_unescape: 0
 show_mbhl: 1
 view_blockstack: 1
-leftpanel_active_tab: 2
+leftpanel_active_tab: 0
 default_mime_type: text/plain
 c2e.IE_apos_workaround: 0
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:804:4814:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:15187:14030:1:
 openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:1135:840:0:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:4500:4213:1:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:4500:4213:0:
 last_filefilter: 
 adv_open_matchname: 0
 editor_tab_width: 3
@@ -103,7 +104,7 @@ replacelist: 20px
 replacelist: 200px
 fb_focus_follow: 1
 htmlbar_view: 1
-savedir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js
+savedir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
 bmarksearchmode: 0
 enable_syntax_scan: 1
 e2c.convert_num: 0
