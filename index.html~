@@ -23,7 +23,7 @@
 	  	   <div class="col-lg" onclick="j()"><p class="br-bt">Jak uruchomić 💻️<br>z dysku USB   </p></div>
 	      <div class="col-lg" onclick="m()"><p class="br-bt">Nowe horyzonty<br>systemu            </p></div>
 	      <div class="col-lg" onclick="n()"><p class="br-bt">New's From Babel<br>poradnik techniczny </p></div>
-	      <div class="col"    onclick="l()"><p class="br-bt">Live dla Ciebie<br>co wybrać❔️          </p></div>
+	      <div class="col"    onclick="l()"><p class="br-bt">Live dla Ciebie<br>co wybrać❔️</p></div>
 	      <div class="col"    onclick="k()"><p class="br-bt">Kontakt <br>  pogawędki 💬️ </p></div>
        </div>
     </div>
@@ -303,7 +303,7 @@
 	  
 	<!-- start scena-4 -->
 <div id="scena-4" class="container mt-3 sh p-5 fs-28">
-  <h3 class="p-2 ta-l sh-t" style="color:#1E90FF; margin-left:5%;margin-right: 65%;">Smaki systemów LINUX.</h3>
+  <h3 class="p-2 ta-l sh-t" style="color:#1E90FF; margin-left:5%; margin-right: 65%;">Smaki systemów LINUX.</h3>
 	<!-- Scena 3 -->
    <div class="row p-2  fs-22">
      <!--   start col.1 -->
@@ -332,7 +332,7 @@
 		</div> <!-- end col.3 -->
 		<!--   start col.4 -->
 		<div class="col-lg-3 fs-22 ta-c"> 
-		  <p class="sh-t">Kali<br>( 😻 👽️ 🤖️ 👨‍🏫️ 🕵‍♀️️ 🧙‍♂️️ )</p>
+		  <p class="sh-t">Kali<br>(👽️ 🤖️ 👨‍🏫️ 🧙‍♂️️ )</p>
 		   <img src="img/128.png" class="rounded  mx-auto d-block" style="width:250px;height: 250px"; alt=" img not find">
 		   <p><br>dla pasjonatów i specjalistów od spraw bezpieczeństwa.<br>Zbiór oprogramowania do penetracji cyberprzestrzeni.</p>
 		</div> <!-- end col.4 -->
@@ -352,12 +352,12 @@
 	        <p class="sh-t ta-l fs-20" style="color:#1E90FF;margin-left: 3%">Sieci komputerowe</p>
 	        <p  class="ta-l fs-19" style="margin-left: 3%">Florian Greg </p>
 	        <h5 class="ta-l sh-t" > 
-	      
-	        <a href="mailto:fg.list.na@gmail.com">✉️ fg.list.na@gmail.com</a>
+	         ✉️ 
+	        <a href="mailto:fg.list.na@gmail.com">fg.list.na@gmail.com</a>
 	        <br> 
 	        ☎️ 882 995 523
 	        </h5>
-	        <br><br>
+	        <br><br><br><br><br><br>
 	       <!--  Tux Technic -->
 	   
 	     </div>
@@ -369,8 +369,9 @@
 </div>	
 <!-- End scena-5 -->
 	  
-<div id="foot" class="ta-c p-2 mt-5" style="color: whitesmoke;" ></div>
-<!-- <h6 class="text-center p-2 mt-5" style="color: whitesmoke;" >Autor: Florian Greg.<br>   </h6>-->
+<!-- <div id="foot" class="ta-c p-2 mt-5" style="color: whitesmoke;" ></div><!--  --> -->
+
+ <h6 class="text-center p-2 mt-5" style="color: whitesmoke;" >Autor: Florian Greg.<br>   </h6>
   <div class="col-lg top-fixed ta-c p-2 m-3 sh-t br-bt " >
    <p  class="sh" onclick="ufo();"> 🛸️ </p> 
    <p  id="m-menu" class="sh" onclick="minmenu();"> ♒️ </p> 
