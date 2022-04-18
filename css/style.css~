@@ -55,7 +55,7 @@ display: none;
   margin-right: auto;
 }
 #menu {
-position:sticky;
+position: sticky;
 //position: fixed;
 top: 15px;
 z-index: 1;
@@ -91,12 +91,15 @@ box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 //opacity: 0.7;
 }
 .sh-t {
-
-  text-shadow: 1px 1px 2px var(--text-shadow-color);
-  color:var(--body-text-color);
+text-shadow: 1px 1px 2px var(--text-shadow-color);
+color:var(--body-text-color);
   /*font: 1.5em Times, Georgia, serif;*/
 }
 
+.fs-14 {
+  font-size: 14px; 
+  font-family:"Times New Roman", Times, serif;
+  }
 .fs-16 {
   font-size: 16px; 
   font-family:"Times New Roman", Times, serif;

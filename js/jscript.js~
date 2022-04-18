@@ -1,4 +1,3 @@
-
  let str="";
  let x=1.0;
  let y=1.0; // 100%
@@ -10,16 +9,10 @@
 // Attaching the event listener function to window's resize event
   window.addEventListener("resize", displayWindowSize);
   //window.addEventListener("click", displayWindowClick);
-    
   document.getElementById("foot").innerHTML =
 "<p>&copy;  " + new Date().getFullYear() + " Autor: Florian Greg.</p>";  
-    
-    
-    
-    
   // Defining event listener function
     function displayWindowSize() {
-    	
      w = window.innerWidth;
      h = window.innerHeight;
      size = "Width: " + w + ", " + "Height: " + h;
@@ -34,8 +27,6 @@
      	  v=1;
        }
     }   
- 
-    
 function hide_dev() {
   //let i=0;
     for(let i in arguments){
@@ -44,14 +35,10 @@ function hide_dev() {
 }
 function visible_dev() {
   //let i=0;
-   
     for(let i in arguments){
         document.getElementById(arguments[i]).style.display = "block";
     }
 }
-
-
-
 function minmenu(v) {
 	if (this.v==0) {
 		document.getElementById("menu").style.display="block";
@@ -64,14 +51,13 @@ function minmenu(v) {
 		return this.v;
 	}
 }
-
 function start() {
     str="scena-0";
     document.getElementById("foot").innerHTML ="Autor: Florian Greg 🖌️ " + new Date().getFullYear() + " </p>"; 
     //document.getElementById("foot").innerHTML ="<p>&copy;  " + new Date().getFullYear() + " Autor Florian Greg.</p>";  
     visible_dev('scena-0');
 	// hide_dev('scena-0');
-	 
+	 document.documentElement.scrollTop = 1;
 //document.getElementById("result").innerHTML = size;
 if ( w < 1400 ) {
      	document.getElementById("menu").style.display="none";
@@ -82,17 +68,12 @@ if ( w < 1400 ) {
      	document.getElementById("m-menu").style.display="none";
      }
 }
-
-
-
 function j() {
-    
     hide_dev('scena-0','scena-2','scena-3','scena-4','scena-5');
     visible_dev('scena-1');
     str="scena-1";
 //window.scrollTo(0, 0);
 document.documentElement.scrollTop = 1;
-
 }
 function m() {
     hide_dev('scena-0','scena-1','scena-3','scena-4','scena-5');
@@ -101,7 +82,6 @@ function m() {
 	 //window.scrollTo(0, 0);
     document.documentElement.scrollTop = 1; // 
    str="scena-2";
-  
 }
 function n() {
     hide_dev('scena-0','scena-1','scena-2','scena-4','scena-5');
@@ -122,20 +102,13 @@ function k() {
     //document.body.scrollTop = 1; // For Safari
      str="scena-5";
   document.documentElement.scrollTop = 1; 
-  
 } 
 function goTop() {
     //document.body.scrollTop = 1;
   document.documentElement.scrollTop = 1;
 //visible_dev('scena-0');
 }
-
- 
- 
-
- 
 function zoomPlus() {
-  
   //let objHtml = document.getElementById('scena-0');
   //let zoom = parseInt(objHtml.style.zoom) + 30 +'%';
   //objHtml.style.zoom = zoom;// chromiun ok
@@ -146,19 +119,14 @@ function zoomPlus() {
     objHtml.style.transform="scale("+x+","+y+")";
    return;
 }
-
-
 function zoomMinus() {
-   
      x=x-0.10;
      y=y-0.05;
      let objHtml = document.getElementById(str);
      objHtml.style.transform="scale("+x+","+y+")";
     return;
 }
-
 function home() {
-   
      x=1.0;
      y=1.0;
      var rr=0;
@@ -166,32 +134,19 @@ function home() {
      document.getElementById(str).style.WebkitTransform = "rotate("+rr+"deg)"; 
     // Code for IE9
     document.getElementById(str).style.msTransform = "rotate("+rr+"deg)"; 
-      
     hide_dev('scena-1','scena-2','scena-3','scena-4','scena-5');
     visible_dev('scena-0');
     document.documentElement.scrollTop = 1;
     return;
 }
-
-
-
-
-
-
 function ufo() {
-	
 	x=1.0;
 	y=1.0;
 	if (r==360) { r=0;} r=r+180;
 	//<!-- if (r==90 )  { document.documentElement.scrollTop =450;} -->
-	
-	
 		  // Code for Chrome, Safari, Opera
     document.getElementById(str).style.WebkitTransform = "rotate("+r+"deg)"; 
     // Code for IE9
     document.getElementById(str).style.msTransform = "rotate("+r+"deg)"; 
 	return;
 }
-
-
-
