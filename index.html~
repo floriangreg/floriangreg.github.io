@@ -28,7 +28,7 @@
 <!-- End menu-->
 
 <!-- ////////////////////// -->
-<!--Start main-grid ---- scaluje wszystkie obiekty -->
+<!--Start main-grid  scaluje wszystkie obiekty -->
  <div class="main-grid container"> 
  
 <!-- Start scena-0 -->	
@@ -38,7 +38,7 @@
 	    <div class="col-lg-3 mt-4"> <!-- Kolumna 1 -->
 	    
 	      <div class="row " > <!-- row -->
-			  <i> "teraz, masz to w kieszonce koszuli"  </i>
+			  <i> "teraz masz to w kieszonce koszuli"  </i>
 			  <img src="img/wl.png" alt=" img not find " class="mt-5 w-100">
 			 <!--  <div id="result"></div> --> <!--  wyświetla dł.i szer. ekranu nie kasować-->
 			</div> <!--end row -->
@@ -73,7 +73,7 @@
      
 	  <div class="row mt-5 " >
        <div class="col-lg-12 p-2 "> 
-		 <img src="img/xface-d.png" alt=" img not find " class=" mx-auto d-block rounded w-100">
+		 <img src="img/xface-d.png" alt=" img not find " class=" sh mx-auto d-block  w-100">
 	    </div>
 	  </div>
 
@@ -242,10 +242,11 @@
 					   <img src="img/gsoft.png" class="mx-auto d-block rounded w-100" alt=" img not find ">
 			   
 			     
-			       <p class=" fs-19 sh-t  ta-c  "><br><br>
+			       <p class=" fs-19 sh-t  ta-c  ">
+			       <br><br>
 			       Instalator pakietów Synaptic.<br>
 			       <i>- tutaj zobaczymy co się dzieje w czasie instalacji -</i>
-			       <p/div>
+			       </p>
 			       <img src="img/synaptic.png" class="mx-auto d-block rounded w-100" alt=" img not find ">	
 			   </div><!-- end col 12-->     	 			
     </div> <!-- End row --> 	 			
