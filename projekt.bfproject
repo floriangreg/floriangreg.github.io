@@ -1,4 +1,4 @@
-opendir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
+opendir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js
 filegloblist: *.xml
 filegloblist: *.txt
 filegloblist: *.shtml
@@ -42,10 +42,10 @@ searchlist: src="img
 sync_include_hidden: 0
 snr_replacetype: 0
 bookmarks_filename_mode: 0
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:15007:Debian Live User:16106:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:13461:Scena 5:16106:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6482:\t<p class="ta-c" >Zainstalowano i skonfi:16106:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:11815:an<br>( Uniwersalny )</p>:16106:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:15006:Debian Live User:16105:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:13460:Scena 5:16105:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6481:\t<p class="ta-c" >Zainstalowano i skonfi:16105:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:11814:an<br>( Uniwersalny )</p>:16105:
 adv_open_recursive: 0
 ssearch_regex: 0
 ssearch_unescape: 0
@@ -57,9 +57,9 @@ c2e.IE_apos_workaround: 0
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:15402:15068:1:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:1686:1240:0:
 openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:2425:0:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:1686:1174:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:1584:902:1:
 last_filefilter: 
 adv_open_matchname: 0
 editor_tab_width: 3
@@ -119,4 +119,5 @@ view_cline: 0
 c2e.convert_iso: 0
 snippets_show_as_menu: 1
 spell_lang: de
+snr_scope: 0
 snr_type: 0
