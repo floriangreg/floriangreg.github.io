@@ -9,8 +9,7 @@
 // Attaching the event listener function to window's resize event
   window.addEventListener("resize", displayWindowSize);
   //window.addEventListener("click", displayWindowClick);
-  document.getElementById("foot").innerHTML =
-"<p>&copy;  " + new Date().getFullYear() + " Autor: Florian Greg.</p>";  
+  //document.getElementById("foot").innerHTML = "<p>&copy;  " + new Date().getFullYear() + " Autor: Florian Greg.</p>";  
   // Defining event listener function
     function displayWindowSize() {
      w = window.innerWidth;
@@ -53,7 +52,7 @@ function minmenu(v) {
 }
 function start() {
     str="scena-0";
-    document.getElementById("foot").innerHTML ="Autor: Florian Greg 🖌️ " + new Date().getFullYear() + " </p>"; 
+    document.getElementById("foot").innerHTML ="Autor: Florian Greg 🖋️ " + new Date().getFullYear() + " </p>"; 
     //document.getElementById("foot").innerHTML ="<p>&copy;  " + new Date().getFullYear() + " Autor Florian Greg.</p>";  
     visible_dev('scena-0');
 	// hide_dev('scena-0');
