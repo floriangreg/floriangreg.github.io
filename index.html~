@@ -300,7 +300,7 @@
 					<p>został zainstalowany i skonfigurowany co umożliwia odtwarzanie plików multimedialnych z naszej
 						pamieci-flash-pendrive np. w smart TV.</p>
 					<p>
-						Konfigurację serwera DLNA połączono z programem youtube-dl
+						Konfigurację serwera DLNA połączono z programem <i>youtube-dl</i>
 						to mały program wiersza poleceń do pobierania filmów z YouTube innych witryn.</p>
 					<p>dla wygody utworzono link yy -> /usr/bin/youtube-dl </p>
 					<p>Kilka przydatnych poleceń:</p>
@@ -339,7 +339,7 @@
 			<!-- Scena 3 -->
 			<div class="row p-2  fs-22">
 				<!--   start col.1 -->
-				<div class="col-lg-3 fs-22 ta-c">
+				<div class="col-lg-3 fs-20 ta-c">
 					<p class="sh-t">Debian<br>( Uniwersalny )</p>
 
 
@@ -351,7 +351,7 @@
 					</p>
 				</div> <!-- end col.1 -->
 				<!--   start col.2 -->
-				<div class="col-lg-3 fs-22 ta-c">
+				<div class="col-lg-3 fs-20 ta-c">
 					<p class="sh-t"> Mint <br>( Biuro/Media )</p>
 					<img src="img/256.png" class="rounded  mx-auto d-block" style="width: 200px; height: 200px"
 						alt=" img not find">
@@ -360,7 +360,7 @@
 						większość ludzi potrzebuje.</p>
 				</div> <!-- end col.2 -->
 				<!--   start col.3 -->
-				<div class="col-lg-3 fs-22 ta-c">
+				<div class="col-lg-3 fs-20 ta-c">
 					<p class="sh-t">Ubuntu Studio<br>( multimedia )</p>
 					<img src="img/256.png" class="rounded  mx-auto d-block" style="width: 200px; height: 200px"
 						alt=" img not find">
@@ -368,13 +368,26 @@
 						projektowaniem graficznym, fotografią i DTP.</p>
 				</div> <!-- end col.3 -->
 				<!--   start col.4 -->
-				<div class="col-lg-3 fs-22 ta-c">
+				<div class="col-lg-3 fs-20 ta-c">
 					<p class="sh-t">Kali<br>(👽️ 🤖️ 👨‍🏫️ 🧙‍♂️️ )</p>
 					<img src="img/128.png" class="rounded  mx-auto d-block" style="width: 200px; height: 200px"
 						alt=" img not find">
 					<p><br>dla pasjonatów i specjalistów od spraw bezpieczeństwa.<br>Zbiór oprogramowania do penetracji
 						cyberprzestrzeni.</p>
 				</div> <!-- end col.4 -->
+				<div class="row mt-4">
+				<div class="col-lg-6 ">	
+				  <p class="sh-t ta-l fs-18" style="color: grey;">
+				  Na każdym z PenDrive (pamięci USB) zainstalowano graficzny instalator systemu na dysk
+				   wewnętrzny komputera oraz dwie opcje uruchomienia:<br>
+				  </p>
+				    <div class="m-2 sh-t ta-l fs-16 " style="color: grey;">				   
+				     &nbsp;1. uruchomienie bez zapisu<br>
+				     &nbsp;2. uruchomienie z zapisem wprowadzonych zmian<br>
+				    </div>
+				  <p class="sh-t ta-l fs-18" style="color: grey;"> co daje nam możliwości testowania sprzętu przed instalacją.<br></p>  
+				</div>
+				</div> <!-- end row -->
 
 
 			</div> <!-- end row -->
