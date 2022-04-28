@@ -1,4 +1,4 @@
-opendir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
+opendir: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js
 filegloblist: *.xml
 filegloblist: *.txt
 filegloblist: *.shtml
@@ -24,7 +24,6 @@ snr_escape_chars: 0
 autoindent: 1
 convertcolumn_horizontally: 0
 view_line_numbers: 1
-searchlist: &nbsp;
 searchlist: 
 searchlist: potę
 searchlist: scrollTop = 0
@@ -39,13 +38,14 @@ searchlist: synaptic
 searchlist: teraz
 searchlist: yout
 searchlist: autor
+searchlist: sieci kom
 sync_include_hidden: 0
 snr_replacetype: 0
 bookmarks_filename_mode: 0
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:15696:Debian Live User:16499:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:13995:Scena 5:16499:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6596:\t<p class="ta-c" >Zainstalowano i skonfi:16499:
-bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:11648:an<br>( Uniwersalny )</p>:16499:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:15776:Debian Live User:17733:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14038:Scena 5:17733:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:6596:\t<p class="ta-c" >Zainstalowano i skonfi:17733:
+bmarks: ::/home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:11655:an<br>( Uniwersalny )</p>:17733:
 adv_open_recursive: 0
 ssearch_regex: 0
 ssearch_unescape: 0
@@ -55,11 +55,11 @@ leftpanel_active_tab: 3
 default_mime_type: text/plain
 c2e.IE_apos_workaround: 0
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html
-recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js
 recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:13658:12824:1:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:1445:1213:0:
-openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:1681:1355:0:
+recent_files: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/js/jscript.js:1681:1179:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/css/style.css:3102:2678:0:
+openfiles: /home/user/Pulpit/git-hub-www/floriangreg.github.io/index.html:14519:13950:1:
 last_filefilter: 
 adv_open_matchname: 0
 editor_tab_width: 3
@@ -70,7 +70,7 @@ spell_insert_entities: 0
 htmlbar_thumbnailwidth: 300
 sync_delete_deprecated: 0
 fb_viewmode: 2
-ssearch_text: autor
+ssearch_text: sieci kom
 recent_dirs: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io
 recent_dirs: file:///home/user/Pulpit/git-hub-www/floriangreg.github.io/img
 view_blocks: 1
@@ -112,7 +112,7 @@ e2c.convert_special: 0
 c2e.convert_symbol: 0
 outputb_show_all_output: 0
 snr_casesens: 0
-charmap_block: 285
+charmap_block: 287
 e2c.convert_symbol: 0
 name: Nowy projekt
 view_cline: 0

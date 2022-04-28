@@ -340,7 +340,7 @@
 			<div class="row p-2  fs-22">
 				<!--   start col.1 -->
 				<div class="col-lg-3 fs-20 ta-c">
-					<p class="sh-t">Debian<br>( Uniwersalny )</p>
+					<p class="sh-t fl-c-g">Debian<br>( Uniwersalny )</p>
 
 
 					<img src="img/256.png" class="rounded  mx-auto d-block" style="width: 200px; height: 200px"
@@ -352,7 +352,7 @@
 				</div> <!-- end col.1 -->
 				<!--   start col.2 -->
 				<div class="col-lg-3 fs-20 ta-c">
-					<p class="sh-t"> Mint <br>( Biuro/Media )</p>
+					<p class="sh-t fl-c-g"> Mint <br>( Biuro/Media )</p>
 					<img src="img/256.png" class="rounded  mx-auto d-block" style="width: 200px; height: 200px"
 						alt=" img not find">
 
@@ -361,7 +361,7 @@
 				</div> <!-- end col.2 -->
 				<!--   start col.3 -->
 				<div class="col-lg-3 fs-20 ta-c">
-					<p class="sh-t">Ubuntu Studio<br>( multimedia )</p>
+					<p class="sh-t fl-c-g">Ubuntu Studio<br>( multimedia )</p>
 					<img src="img/256.png" class="rounded  mx-auto d-block" style="width: 200px; height: 200px"
 						alt=" img not find">
 					<p><br>system operacyjny dla osób zajmujących się produkcją audio, produkcją wideo,
@@ -369,7 +369,7 @@
 				</div> <!-- end col.3 -->
 				<!--   start col.4 -->
 				<div class="col-lg-3 fs-20 ta-c">
-					<p class="sh-t">Kali<br>(👽️ 🤖️ 👨‍🏫️ 🧙‍♂️️ )</p>
+					<p class="sh-t fl-c-g">Kali<br>(👽️ 🤖️ 👨‍🏫️ 🧙‍♂️️ )</p>
 					<img src="img/128.png" class="rounded  mx-auto d-block" style="width: 200px; height: 200px"
 						alt=" img not find">
 					<p><br>dla pasjonatów i specjalistów od spraw bezpieczeństwa.<br>Zbiór oprogramowania do penetracji
@@ -383,9 +383,9 @@
 				  </p>
 				    <div class="m-2 sh-t ta-l fs-16 " style="color: grey;">				   
 				     &nbsp;1. uruchomienie bez zapisu<br>
-				     &nbsp;2. uruchomienie z zapisem wprowadzonych zmian<br>
+				     &nbsp;2. uruchomienie z zapisem <i>wprowadzonych zmian</i><br>
 				    </div>
-				  <p class="sh-t ta-l fs-18" style="color: grey;"> co daje nam możliwości testowania sprzętu przed instalacją.<br></p>  
+				  <p class="sh-t ta-l fs-18" style="color: grey;"> co daje nam możliwości testowania sprzętu przed instalacją oprogramowania.<br></p>  
 				</div>
 				</div> <!-- end row -->
 
@@ -399,24 +399,26 @@
 
 			<!-- 	Scena 5 -->
 			<div class="row p-2">
-				<div class="col-lg-6 ">
+				<div class="col-lg-6 "><!--  -->
 					<h3 class="sh-t ta-l" style="color:#1E90FF;">Systemy Operacyjne</h3>
-					<p class="sh-t ta-l fs-20" style="color:#1E90FF;margin-left: 3%">Sieci komputerowe</p>
+					<p class="sh-t ta-l fs-20" style="color:#1E90FF;margin-left: 3%">Sieci komputerowe<br>Serwis</p>
 					<p class="ta-l fs-19" style="margin-left: 3%">Florian Greg </p>
 					<h5 class="ta-l sh-t">
 						✉️
-						<a href="mailto:fg.list.na@gmail.com">fg.list.na@gmail.com</a>
+						<a href="mailto:flor.greg@gmail.com">flor.greg@gmail.com</a>
 						<br>
 						☎️ 882 995 523
 					</h5>
 
-					<br><br><br><br><br><br><br><br><br>
+					<br><br><br>
+					
 
 					<!--  <p class="sh-t fs-18"><b>Debian edu Skolinux</b> <br>to system do zarządzania siecią komputerową, który powstał z myślą o szkolnictwie.
-	        Ale równie dobrze można go użyć dla innych jednostek np. wojsko, 
+	        Ale równie dobrze można go użyć dla innych jednostek, 
 	        ponieważ posiada wysoki stopień bezpieczeństwa w sieci globalnej.
 	        Projekt zakłada iż każdy użytkownik tej sieci będzie posiadał swój własny system operacyjny "Debian Live USB"
-	        dostosowany do jego potrzeb i szkoły, niezależnie czy jest uczniem, nauczycielem i będzie mógł łączyć sie z dowolnego
+	        dostosowany do jego potrzeb i funkcji jaką będzie wykonywał, niezależnie czy jest uczniem, nauczycielem i będzie mógł 
+	        łączyć sie z dowolnego
 	        miejsca i komputera w celu jaki zakłada. </p>
 	        <br>...
 	        <p> <i>"aby nie zostać klikierem</i> <br>
@@ -436,8 +438,37 @@
 					<p>➕️ edu Skolinux</p>
 					<i class="fs-14">"do nauki dla każdego"</i>👨‍🎓️👩‍🎓️
 				</div>
+				</div> <!-- end row -->
+				<div class="row p-2 mt-5">
+					<div class="col-lg-6 "><!--  -->
+					 
+					</div>
+					
+						<div class="col-lg-3 ">
+						   <h3 class="ta-l">🅁🄴🄺🄻🄰🄼🄰</h3><br>
+					      <img src="img/sv.png" alt=" img not find " class="rounded  float-left p-2" style="width: 280px; height: 180px">
+						</div>
+						
+							<div class="col-lg-3 ">
+							 <p class="p-2  fs-22">  </p>
+							  <img src="img/sv2.png" alt=" img not find " class="rounded  float-left p-2" style="width: 180px; height: 280px">
+							</div>
+				   <div class="col-lg-6 "><!--  -->
+					 
+					</div>
+					
+						<div class="col-lg-3  "><br>
+						   <p class="ta-l">Wąska obudowa komputera z technologią SilverStone na płyty główne 
+						   Mini-ITX ze zintegrowanym oświetleniem RGB RVZ03B </p>
+					    <!--   <img src="img/sv2.png" alt=" img not find " class="rounded  float-left" style="width: 180px; height: 280px"> -->
+						</div>
+						
+							<div class="col-lg-3 "><br>
+							 <p class="ta-l">Idealna na domowy serwer multimedialny HTPC jako centrum multimedialne, stacja robocza 
+							 oraz do grania.</p>
+							</div>
 
-			</div>
+			</div> 	<!-- End row -->
 		</div>
 		<!-- End scena-5 -->
 
