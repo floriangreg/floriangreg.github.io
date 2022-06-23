@@ -223,6 +223,7 @@ body {
   border: var(--br-bt-border);
   border-radius: 25px;
   color: var(--body-text-color);
+ 
 }
 
 .br-bt:hover {
@@ -256,12 +257,26 @@ body {
 }
 
 .br-line-b {
-  border-bottom: var(--br-border);
-  //border-radius:10px;	
+  
+  border-bottom-style:groove; 
   //padding: 2px;
 
 }
+.br-line-b:hover {
+  color: #9ACD32;
 
+ 
+}
+.br-line-b:hover::first-letter {
+  color: #FF0;
+
+}
+.br-line-b::first-letter {
+  color: #9ACD32;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .top-fixed {
   position: fixed;
   bottom: 1%;

@@ -35,19 +35,19 @@
 				<p class="br-bt">Live OS<br>co wybrać❔️</p>
 			</div>
 			<div class="col" onclick="k()">
-				<p class="br-bt">Kontakt <br>informacje 💬️</p>
+				<p class="br-bt">Kontakt <br> informacje projektu 💬️</p>
 			</div>
 		</div>
 	</div>
 	<!-- End menu-->
 
 	<!-- ////////////////////// -->
-	<!--Start main-grid  skaluje wszystkie obiekty -->
+	<!--Start main-grid  scaluje wszystkie obiekty -->
 	<div class="main-grid container">
 
 		<!-- Start scena-0 -->
 		<div id="scena-0" class=" ta-c fs-22">
-			<div class="row mt-2 p-5 sh sh-t">
+			<div class="row mt-4 p-5  sh-t">
 				<!-- row -->
 				<!-- Kolumna 1 -->
 				<div class="col-lg-3 mt-5">
@@ -106,7 +106,7 @@
 
 
 		<!-- Start scena-1 -->
-		<div id="scena-1" class="container mt-3 sh p-5 fs-28">
+		<div id="scena-1" class="container mt-4  p-5 fs-28">
 			<!-- Scena 1 -->
 			<h3 class="sh-t" style="color:#1E90FF; margin-left:5%;margin-right: 65%;">Wejście do systemu<br>BIOS-UEFI:
 			</h3>
@@ -179,7 +179,7 @@
 		<!-- ////////////////////// -->
 
 		<!-- Start scena-2 -->
-		<div id="scena-2" class="container mt-3 sh p-5 fs-28">
+		<div id="scena-2" class="container mt-4  p-5 fs-28">
 			<h3 class="p-2 ta-l sh-t" style="color:#1E90FF; margin-left:5%;margin-right: 65%;">Debian Live <br>Osobisty
 				System Operacyjny</h3>
 			<div class="row p-2">
@@ -283,7 +283,7 @@
 		<!-- End scena-2 -->
 
 		<!-- Start scena-3 -->
-		<div id="scena-3" class="container mt-3 sh p-5 fs-28">
+		<div id="scena-3" class="container mt-4 p-5 fs-28">
 			<h3 class="p-2 ta-l sh-t" style="color:#1E90FF; margin-left:5%; margin-right:65%;">Poradnik techniczny</h3>
 			<!-- Scena 3 -->
 			<div class="row p-2  fs-22">
@@ -333,7 +333,7 @@
 
 
 		<!-- start scena-4 -->
-		<div id="scena-4" class="container mt-3 sh p-5 fs-28">
+		<div id="scena-4" class="container mt-4 p-5 fs-28">
 			<h3 class="p-2 ta-l sh-t" style="color:#1E90FF; margin-left:5%; margin-right: 65%">Smaki systemów LINUX.
 			</h3>
 			<!-- Scena 3 -->
@@ -395,7 +395,7 @@
 		<!-- End scena-4 -->
 
 		<!-- start scena-5 -->
-		<div id="scena-5" class="container mt-3 sh p-5 ">
+		<div id="scena-5" class="container mt-3  p-5 ">
 
 			<!-- 	Scena 5 -->
 			<div class="row p-2">
@@ -411,10 +411,22 @@
 					</h5>
 
 					<br><br><br>
+					
+
+					  <p class="sh-t fs-20"><b>
+					Debian edu Skolinux</b> <br>to system do zarządzania siecią komputerową, który powstał z myślą o szkolnictwie.
+	        Ale równie dobrze można go użyć dla innych jednostek, 
+	        ponieważ posiada wysoki stopień bezpieczeństwa w sieci globalnej.
+	        Projekt zakłada iż każdy użytkownik tej sieci będzie posiadał swój własny system operacyjny "Debian Live USB"
+	        dostosowany do jego potrzeb i funkcji jaką będzie wykonywał, niezależnie czy jest uczniem, nauczycielem i będzie mógł 
+	        łączyć się do serwerów z dowolnego
+	        miejsca i komputera z użytkownikami w celu jaki zakłada. </p>
+	        <br>...
+	       
 				</div>
 
 				<div class="col-lg-3">
-					<h3 class="ta-l">🅁🄴🄺🄻🄰🄼🄰</h3>
+					<h3 class="ta-l">🄳🄴🄱🄸🄰🄽 🄽🅃🅂 🅂🄴🅁🅆🄴🅁 </h3>
 					<img src="img/skole_tux.png" alt=" img not find " class="rounded  float-left">
 				</div>
 				<div class="col-lg-3 fs-22"><br>
@@ -422,36 +434,8 @@
 					<p>➕️ edu Skolinux</p>
 					<i class="fs-14">"do nauki dla każdego"</i>👨‍🎓️👩‍🎓️
 				</div>
-				</div> <!-- end row -->
-				<div class="row p-2 mt-5">
-					<div class="col-lg-6 "><!--  -->
-					 
-					</div>
-					
-						<div class="col-lg-3 ">
-						   <h3 class="ta-l">🅁🄴🄺🄻🄰🄼🄰</h3><br>
-					      <img src="img/sv.png" alt=" img not find " class="rounded  float-left p-2" style="width: 280px; height: 180px">
-						</div>
-						
-							<div class="col-lg-3 ">
-							 <p class="p-2  fs-22">  </p>
-							  <img src="img/sv2.png" alt=" img not find " class="rounded  float-left p-2" style="width: 180px; height: 280px">
-							</div>
-				   <div class="col-lg-6 "><!--  -->
-					 
-					</div>
-					
-						<div class="col-lg-3  "><br>
-						   <p class="ta-l">Wąska obudowa komputera z technologią SilverStone na płyty główne 
-						   Mini-ITX ze zintegrowanym oświetleniem RGB RVZ03B </p>
-					    <!--   <img src="img/sv2.png" alt=" img not find " class="rounded  float-left" style="width: 180px; height: 280px"> -->
-						</div>
-						
-							<div class="col-lg-3 "><br>
-							 <p class="ta-l">Idealna na domowy serwer multimedialny HTPC jako centrum multimedialne, stacja robocza 
-							 oraz do grania.</p>
-							</div>
-
+								 
+		
 			</div> 	<!-- End row -->
 		</div>
 		<!-- End scena-5 -->
