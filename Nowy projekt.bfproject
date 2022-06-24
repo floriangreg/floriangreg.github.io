@@ -37,6 +37,8 @@ searchlist: project
 searchlist: projekt
 searchlist: pandri
 searchlist: pendr
+searchlist: img not find
+searchlist: stacji
 sync_include_hidden: 0
 snr_replacetype: 0
 bookmarks_filename_mode: 0
@@ -51,9 +53,9 @@ c2e.IE_apos_workaround: 0
 recent_files: file:///home/user/www/git-hub-www/floriangreg.github.io/index.html
 recent_files: file:///home/user/www/git-hub-www/floriangreg.github.io/js/jscript.js
 recent_files: file:///home/user/www/git-hub-www/floriangreg.github.io/css/style.css
-openfiles: /home/user/www/git-hub-www/floriangreg.github.io/index.html:15503:14836:1:
+openfiles: /home/user/www/git-hub-www/floriangreg.github.io/index.html:15356:14752:1:
 openfiles: /home/user/www/git-hub-www/floriangreg.github.io/css/style.css:1167:0:0:
-openfiles: /home/user/www/git-hub-www/floriangreg.github.io/js/jscript.js:0:3288:0:
+openfiles: /home/user/www/git-hub-www/floriangreg.github.io/js/jscript.js:0:2847:0:
 last_filefilter: 
 adv_open_matchname: 0
 editor_tab_width: 3
@@ -64,7 +66,7 @@ spell_insert_entities: 0
 htmlbar_thumbnailwidth: 300
 sync_delete_deprecated: 0
 fb_viewmode: 0
-ssearch_text: pendr
+ssearch_text: stacji
 recent_dirs: file:///home/user/www/git-hub-www/floriangreg.github.io
 view_blocks: 1
 editor_indent_wspaces: 0

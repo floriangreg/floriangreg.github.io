@@ -43,7 +43,7 @@
 
 	<!-- ////////////////////// -->
 	<!--Start main-grid  scaluje wszystkie obiekty -->
-	<div class="main-grid container">
+	<div class="main-grid container-flow">
 
 		<!-- Start scena-0 -->
 		<div id="scena-0" class=" ta-c fs-22">
@@ -63,7 +63,7 @@
 				<!-- End Kolumna 1 -->
 
 				<!-- Kolumna 2 -->
-				<div class="col-lg-6 p-5 sh">
+				<div class="col-lg-6 p-5">
 					<h2>Uniwersalny</h2>
 					<h1>Osobisty System Operacyjny</h1>
 					<!--    <p >Debian 11 Live USB</p> -->
@@ -106,7 +106,7 @@
 
 
 		<!-- Start scena-1 -->
-		<div id="scena-1" class="container mt-4  p-5 fs-28">
+		<div id="scena-1" class="container-flow mt-4  p-5 fs-28">
 			<!-- Scena 1 -->
 			<h3 class="sh-t" style="color:#1E90FF; margin-left:5%;margin-right: 65%;">Wejście do systemu<br>BIOS-UEFI:
 			</h3>
@@ -179,7 +179,7 @@
 		<!-- ////////////////////// -->
 
 		<!-- Start scena-2 -->
-		<div id="scena-2" class="container mt-4  p-5 fs-28">
+		<div id="scena-2" class="container-flow mt-4  p-5 fs-28">
 			<h3 class="p-2 ta-l sh-t" style="color:#1E90FF; margin-left:5%;margin-right: 65%;">Debian Live <br>Osobisty
 				System Operacyjny</h3>
 			<div class="row p-2">
@@ -283,7 +283,7 @@
 		<!-- End scena-2 -->
 
 		<!-- Start scena-3 -->
-		<div id="scena-3" class="container mt-4 p-5 fs-28">
+		<div id="scena-3" class="container-flow mt-4 p-5 fs-28">
 			<h3 class="p-2 ta-l sh-t" style="color:#1E90FF; margin-left:5%; margin-right:65%;">Poradnik techniczny</h3>
 			<!-- Scena 3 -->
 			<div class="row p-2  fs-22">
@@ -333,7 +333,7 @@
 
 
 		<!-- start scena-4 -->
-		<div id="scena-4" class="container mt-4 p-5 fs-28">
+		<div id="scena-4" class="container-flow mt-4 p-5 fs-28">
 			<h3 class="p-2 ta-l sh-t" style="color:#1E90FF; margin-left:5%; margin-right: 65%">Smaki systemów LINUX.
 			</h3>
 			<!-- Scena 3 -->
@@ -395,11 +395,12 @@
 		<!-- End scena-4 -->
 
 		<!-- start scena-5 -->
-		<div id="scena-5" class="container mt-4 p-5 ">
+		<div id="scena-5" class="container-flow mt-4 p-5 ">
 
 			<!-- 	Scena 5 -->
 			<div class="row p-2">
-				<div class="col-lg-6 "><!--  -->
+			 <div class="col-lg-6 ">
+				<div class="p-1">
 					<h3 class="sh-t ta-l" style="color:#1E90FF;">Systemy Operacyjne</h3>
 					<p class="sh-t ta-l fs-20" style="color:#1E90FF;margin-left: 3%">Sieci komputerowe</p>
 					<p class="ta-l fs-19" style="margin-left: 3%">Florian Greg </p>
@@ -409,41 +410,37 @@
 						<br>
 						☎️ 882 995 523
 					</h5>
-
+             </div>
+          </div>
+             <div class="col-lg-6">
+							<h3 class="ta-c">🄳🄴🄱🄸🄰🄽 🄽🅃🅂 🅂🄴🅁🅆🄴🅁 </h3>
+					<img src="img/nt-s.png" alt=" img not find " class="rounded mx-auto d-block">
+				</div>
 					<br><br><br>
 					
 
-					  <p class="sh-t fs-20">O projekcie.<br><b>
-					Debian EDU Skolinux</b> <br>to system do zarządzania siecią komputerową, który powstał z myślą o szkolnictwie.
-	        Ale równie dobrze można go użyć dla innych jednostek, 
-	        ponieważ posiada wysoki stopień bezpieczeństwa w sieci globalnej.
-	        <b>Projekt</b> zakłada iż każdy użytkownik tej sieci będzie posiadał swój własny system operacyjny "Debian Live USB"
-	        dostosowany do jego potrzeb i funkcji jaką będzie wykonywał, niezależnie czy jest uczniem, nauczycielem  będzie mógł 
-	        łączyć się do serwerów z dowolnego
-	        miejsca i komputera z użytkownikami w celu jaki zakłada.<br>
-	        Takie rozwiązanie pozwala na stosowanie terminali
-	        które niekoniecznie muszą ładować system z serwera
-	        a użytkownicy mogą korzystać z oprogramowania w warunkach domowych.
-	        To znacznie obniża koszty inwestycji, oraz możliwości wykorzystania sprzętu
-	        jaki już posiadamy.
+					  <p class="sh-t fs-20">O projekcie <b>Debian NTS</b>.<br>
+	
+	        <b>Projekt Debian NTS </b> zakłada iż każdy użytkownik sieci będzie posiadał swój własny system operacyjny "Debian Live USB"<br>
+	        dostosowany do jego potrzeb i funkcji jaką będzie wykonywał, niezależnie gdzie przebywa <br>
+	        będzie mógł łączyć się do serwera z dowolnego miejsca i komputera z użytkownikami w celu jaki zakłada.<br>
+	        Takie rozwiązanie pozwala na zastosowanie stacji roboczych<br>
+	        które niekoniecznie muszą posiadać system operacyjny co znacznie obniża koszty.<br>
+	        <br>
+	        
 	         </p>
 	        <br>...
-	       
-				</div>
+	      
 
-				<div class="col-lg-3">
-				   <p class="fs-20 sh-t"> Projekt </p>
-					<h3 class="ta-l">🄳🄴🄱🄸🄰🄽 🄽🅃🅂 🅂🄴🅁🅆🄴🅁 </h3>
-					<img src="img/skole_tux.png" alt=" img not find " class="rounded  float-left">
-				</div>
-				<div class="col-lg-3 fs-22"><br>
+				
+			<!-- 	<div class="col-lg-12 fs-22"><br>
 					<p>Debian Live USB</p>
 					<p>➕️ edu Skolinux</p>
 					<i class="fs-14">"do nauki dla każdego"</i>👨‍🎓️👩‍🎓️
 				</div>
 				<div class="col-lg-12 ">
 				<img src="img/dnet.png" alt=" img not find " class="rounded mt-5">
-				</div>
+				</div> -->
 								 
 		
 			</div> 	<!-- End row -->
