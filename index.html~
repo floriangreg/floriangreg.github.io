@@ -35,7 +35,7 @@
 				<p class="br-bt">Live OS<br>co wybrać❔️</p>
 			</div>
 			<div class="col" onclick="k()">
-				<p class="br-bt">Kontakt <br> informacje projektu 💬️</p>
+				<p class="br-bt">Kontakt <br> informacje 💬️</p>
 			</div>
 		</div>
 	</div>
@@ -395,7 +395,7 @@
 		<!-- End scena-4 -->
 
 		<!-- start scena-5 -->
-		<div id="scena-5" class="container mt-3  p-5 ">
+		<div id="scena-5" class="container mt-4 p-5 ">
 
 			<!-- 	Scena 5 -->
 			<div class="row p-2">
@@ -426,6 +426,7 @@
 				</div>
 
 				<div class="col-lg-3">
+				   <p class="fs-20 sh"> Projekt </p>
 					<h3 class="ta-l">🄳🄴🄱🄸🄰🄽 🄽🅃🅂 🅂🄴🅁🅆🄴🅁 </h3>
 					<img src="img/skole_tux.png" alt=" img not find " class="rounded  float-left">
 				</div>
