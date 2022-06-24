@@ -65,8 +65,8 @@ body {
 }
 
 #menu {
+ //position: fixed;	
   position: sticky;
-  //position: fixed;
   top: 15px;
   z-index: 1;
   margin-left: 6%;

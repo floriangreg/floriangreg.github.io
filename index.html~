@@ -414,13 +414,19 @@
 					
 
 					  <p class="sh-t fs-20">O projekcie.<br><b>
-					Debian edu Skolinux</b> <br>to system do zarządzania siecią komputerową, który powstał z myślą o szkolnictwie.
+					Debian EDU Skolinux</b> <br>to system do zarządzania siecią komputerową, który powstał z myślą o szkolnictwie.
 	        Ale równie dobrze można go użyć dla innych jednostek, 
 	        ponieważ posiada wysoki stopień bezpieczeństwa w sieci globalnej.
-	        Projekt zakłada iż każdy użytkownik tej sieci będzie posiadał swój własny system operacyjny "Debian Live USB"
-	        dostosowany do jego potrzeb i funkcji jaką będzie wykonywał, niezależnie czy jest uczniem, nauczycielem i będzie mógł 
+	        <b>Projekt</b> zakłada iż każdy użytkownik tej sieci będzie posiadał swój własny system operacyjny "Debian Live USB"
+	        dostosowany do jego potrzeb i funkcji jaką będzie wykonywał, niezależnie czy jest uczniem, nauczycielem  będzie mógł 
 	        łączyć się do serwerów z dowolnego
-	        miejsca i komputera z użytkownikami w celu jaki zakłada. </p>
+	        miejsca i komputera z użytkownikami w celu jaki zakłada.<br>
+	        Takie rozwiązanie pozwala na stosowanie terminali
+	        które niekoniecznie muszą ładować system z serwera
+	        a użytkownicy mogą korzystać z oprogramowania w warunkach domowych.
+	        To znacznie obniża koszty inwestycji, oraz możliwości wykorzystania sprzętu
+	        jaki już posiadamy.<br>Cena systemu operacyjnego z oprogramowanie "Debian Live USB" to cena pendrive'a.
+	         </p>
 	        <br>...
 	       
 				</div>
@@ -434,6 +440,9 @@
 					<p>Debian Live USB</p>
 					<p>➕️ edu Skolinux</p>
 					<i class="fs-14">"do nauki dla każdego"</i>👨‍🎓️👩‍🎓️
+				</div>
+				<div class="col-lg-12 ">
+				<img src="img/dnet.png" alt=" img not find " class="rounded mt-5">
 				</div>
 								 
 		

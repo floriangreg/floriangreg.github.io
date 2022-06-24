@@ -65,8 +65,9 @@ body {
 }
 
 #menu {
+ //position: fixed;	
   position: sticky;
-  //position: fixed;
+ 
   top: 15px;
   z-index: 1;
   margin-left: 6%;
@@ -223,7 +224,7 @@ body {
   border: var(--br-bt-border);
   border-radius: 25px;
   color: var(--body-text-color);
-  border-bottom-style: ridge;
+ 
 }
 
 .br-bt:hover {
