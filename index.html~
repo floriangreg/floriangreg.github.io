@@ -399,37 +399,40 @@
 
 			<!-- 	Scena 5 -->
 			<div class="row p-2">
-			 <div class="col-lg-6 ">
-				<div class="p-1">
-					<h3 class="sh-t ta-l" style="color:#1E90FF;">Systemy Operacyjne</h3>
-					<p class="sh-t ta-l fs-20" style="color:#1E90FF;margin-left: 3%">Sieci komputerowe</p>
-					<p class="ta-l fs-19" style="margin-left: 3%">Florian Greg </p>
-					<h5 class="ta-l sh-t">
-						✉️
-						<a href="mailto:florian.greg.list@gmail.com">florian.greg.list@gmail.com</a>
-						<br>
-						☎️ 882 995 523
+			
+			 <div class="col-lg-6 fs-22 ta-c">
+				<div class="p-3">
+					<h3 class="sh-t " style="color:#1E90FF;">Systemy Operacyjne</h3>
+					<p class="sh-t fs-20" style="color:#1E90FF;margin-left: 3%">Sieci komputerowe</p>
+					<p class="fs-19" style="margin-left: 3%">Florian Greg </p>
+					<h5 class="sh-t fs-20">
+					
+						☎️ 882 995 523 <br>
+						✉️	<a href="mailto:florian.greg.list@gmail.com">florian.greg.list@gmail.com</a>
+						
 					</h5>
              </div>
           </div>
+  
              <div class="col-lg-6">
-							<h3 class="ta-c">🄳🄴🄱🄸🄰🄽 🄽🅃🅂 🅂🄴🅁🅆🄴🅁 </h3>
+							<h3 class="ta-c">🄳🄴🄱🄸🄰🄽 <br>🄽🅃🅂<br> 🅂🄴🅁🅆🄴🅁 </h3>
 					<img src="img/nt-s.png" alt=" img not find " class="rounded mx-auto d-block">
 				</div>
 					<br><br><br>
 					
 
-					  <p class="sh-t fs-20">O projekcie <b>Debian NTS</b>.<br>
+					  <p class="sh-t fs-24 ta-c" style="color: grey;"> O projekcie <b>Debian NTS</b>.<br>
 	
-	        <b>Projekt Debian NTS </b> zakłada iż każdy użytkownik sieci będzie posiadał swój własny system operacyjny "Debian Live USB"<br>
+	        <b>Projekt Debian NTS </b> zakłada iż każdy użytkownik sieci będzie posiadał swój własny system operacyjny<br>
+	         "Debian Live USB"<br>
 	        dostosowany do jego potrzeb i funkcji jaką będzie wykonywał, niezależnie gdzie przebywa <br>
 	        będzie mógł łączyć się do serwera z dowolnego miejsca i komputera z użytkownikami w celu jaki zakłada.<br>
-	        Takie rozwiązanie pozwala na zastosowanie stacji roboczych<br>
-	        które niekoniecznie muszą posiadać system operacyjny co znacznie obniża koszty.<br>
+	        Takie rozwiązanie pozwala na zastosowanie stacji rzeczywistych<br>
+	        które niekoniecznie muszą posiadać system operacyjny jak i rozproszonych.<br>
 	        <br>
-	        
+	          <br>...
 	         </p>
-	        <br>...
+	      
 	      
 
 				
