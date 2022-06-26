@@ -106,7 +106,7 @@
 
 
 		<!-- Start scena-1 -->
-		<div id="scena-1" class="container-flow mt-4  p-5 fs-28">
+		<div id="scena-1" class="container-flow mt-5  p-5 fs-28">
 			<!-- Scena 1 -->
 			<h3 class="sh-t" style="color:#1E90FF; margin-left:5%;margin-right: 65%;">Wejście do systemu<br>BIOS-UEFI:
 			</h3>
@@ -179,7 +179,7 @@
 		<!-- ////////////////////// -->
 
 		<!-- Start scena-2 -->
-		<div id="scena-2" class="container-flow mt-4  p-5 fs-28">
+		<div id="scena-2" class="container-flow mt-5  p-5 fs-28">
 			<h3 class="p-2 ta-l sh-t" style="color:#1E90FF; margin-left:5%;margin-right: 65%;">Debian Live <br>Osobisty
 				System Operacyjny</h3>
 			<div class="row p-2">
@@ -283,7 +283,7 @@
 		<!-- End scena-2 -->
 
 		<!-- Start scena-3 -->
-		<div id="scena-3" class="container-flow mt-4 p-5 fs-28">
+		<div id="scena-3" class="container-flow mt-5 p-5 fs-28">
 			<h3 class="p-2 ta-l sh-t" style="color:#1E90FF; margin-left:5%; margin-right:65%;">Poradnik techniczny</h3>
 			<!-- Scena 3 -->
 			<div class="row p-2  fs-22">
@@ -333,7 +333,7 @@
 
 
 		<!-- start scena-4 -->
-		<div id="scena-4" class="container-flow mt-4 p-5 fs-28">
+		<div id="scena-4" class="container-flow mt-5 p-5 fs-28">
 			<h3 class="p-2 ta-l sh-t" style="color:#1E90FF; margin-left:5%; margin-right: 65%">Smaki systemów LINUX.
 			</h3>
 			<!-- Scena 3 -->
@@ -395,7 +395,7 @@
 		<!-- End scena-4 -->
 
 		<!-- start scena-5 -->
-		<div id="scena-5" class="container-flow mt-4 p-5 ">
+		<div id="scena-5" class="container-flow mt-5 p-5 ">
 
 			<!-- 	Scena 5 -->
 			<div class="row p-2">
@@ -427,8 +427,8 @@
 	         "Debian Live USB"<br>
 	        dostosowany do jego potrzeb i funkcji jaką będzie wykonywał, niezależnie gdzie przebywa <br>
 	        będzie mógł łączyć się do serwera z dowolnego miejsca i komputera z użytkownikami w celu jaki zakłada.<br>
-	        Takie rozwiązanie pozwala na zastosowanie stacji rzeczywistych<br>
-	        które niekoniecznie muszą posiadać system operacyjny jak i rozproszonych.<br>
+	        Takie rozwiązanie pozwala na zastosowanie stacji rzeczywistych które <br>
+	        niekoniecznie muszą posiadać system operacyjny jak i rozproszonych.<br>
 	        <br>
 	          <br>...
 	         </p>
@@ -454,8 +454,6 @@
 	</div> <!-- End Main-grid container  -->
 	<!-- ////////////////////////////// -->
 
-
-	<!--  <h6 class="text-center p-2 mt-5" style="color: whitesmoke;" >Autor: Florian Greg.<br>   </h6> -->
 	<div class="col-lg top-fixed ta-c p-2 m-3 sh-t br-bt ">
 		<p class="sh" onclick="ufo();"> 🛸️ </p>
 		<p id="m-menu" class="sh" onclick="minmenu();"> ♒️ </p>
@@ -466,7 +464,7 @@
 	</div>
 
 	<div id="foot" class="ta-c p-2 mt-5" style="color: whitesmoke;"> </div>
-	<!-- ///// End Body /////-->
-</body>
+	
+</body> <!-- ///// End Body /////-->
 
 </html>
