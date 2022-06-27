@@ -24,7 +24,6 @@ snr_escape_chars: 0
 autoindent: 1
 convertcolumn_horizontally: 0
 view_line_numbers: 1
-searchlist: nts
 searchlist: PROJECT
 searchlist: project
 searchlist: projekt
@@ -39,6 +38,7 @@ searchlist: informacje
 searchlist: virtual
 searchlist: pen
 searchlist: xface
+searchlist: standar
 sync_include_hidden: 0
 snr_replacetype: 0
 bookmarks_filename_mode: 0
@@ -53,9 +53,9 @@ c2e.IE_apos_workaround: 0
 recent_files: file:///home/user/www/git-hub-www/floriangreg.github.io/index.html
 recent_files: file:///home/user/www/git-hub-www/floriangreg.github.io/js/jscript.js
 recent_files: file:///home/user/www/git-hub-www/floriangreg.github.io/css/style.css
-openfiles: /home/user/www/git-hub-www/floriangreg.github.io/index.html:15252:14672:1:
-openfiles: /home/user/www/git-hub-www/floriangreg.github.io/css/style.css:1517:1213:0:
-openfiles: /home/user/www/git-hub-www/floriangreg.github.io/js/jscript.js:0:1897:0:
+openfiles: /home/user/www/git-hub-www/floriangreg.github.io/index.html:6364:6137:1:
+openfiles: /home/user/www/git-hub-www/floriangreg.github.io/css/style.css:1517:1167:0:
+openfiles: /home/user/www/git-hub-www/floriangreg.github.io/js/jscript.js:0:1722:0:
 last_filefilter: 
 adv_open_matchname: 0
 editor_tab_width: 3
@@ -66,7 +66,7 @@ spell_insert_entities: 0
 htmlbar_thumbnailwidth: 300
 sync_delete_deprecated: 0
 fb_viewmode: 0
-ssearch_text: xface
+ssearch_text: standar
 recent_dirs: file:///home/user/www/git-hub-www/floriangreg.github.io
 view_blocks: 1
 editor_indent_wspaces: 0
