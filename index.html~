@@ -196,11 +196,11 @@
 					<p class="fs-24">
 						Automatycznie montuje dyski na pulpit (read/write).<br>
 						<br>
-						Standardowo system nie został skonfigurowany do pracy:<br>
+						Standardowo system został skonfigurowany do pracy:<br>
 						Internet, Office, media.<br><br>
 
 					</p>
-					<p class="ta-l"> i nie skonfigurowano:</p>
+					<p class="ta-l"> skonfigurowano:</p>
 
 					<!-- start row -->
 					<div class="row p-2 mb-2 fs-22">
@@ -424,7 +424,7 @@
 					  <p class="sh-t fs-24 ta-l" style="color: whitesmoke;"> O projekcie <b>Debian N<sub>e</sub>TS</b>.<br>
 	
 	        <b>Projekt Debian NTS </b> zakłada iż każdy użytkownik sieci będzie posiadał swój własny system operacyjny<br>
-	         "Debian Live User"<br>
+	         "Debian Live User"<br>dostosowany do jego potrzeb i funkcji jaką będzie wykonywał.
 	         <br>
 	      
 	      
