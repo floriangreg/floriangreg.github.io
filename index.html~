@@ -54,7 +54,7 @@
 					<div class="row  w-100 ">
 						<!-- row -->
 						<i> " masz to w kieszonce koszuli" </i>
-						<img src="img/wl.png" alt=" img not find " class="mt-5 w-100">
+						<img src="img/wl.png" alt=" img not find " class="mt-5 ">
 						<!--  <div id="result"></div> -->
 						<!--  wyświetla dł.i szer. ekranu nie kasować-->
 					</div>
@@ -415,20 +415,99 @@
           </div>
   
              <div class="col-lg-6">
-							<h3 class="ta-c">🄳🄴🄱🄸🄰🄽 <br>🄽<sub>e</sub>🅃🅂<br> 🅂🄴🅁🅆🄴🅁 </h3>
+							<h3 class="ta-c">🄳🄴🄱🄸🄰🄽 <br>🄽<sub>e</sub>🅃🅂<br> 🄿🅁🄾🅃🄴🄲🅃🄸🄾🄽 </h3>
 					<img src="img/nt-s.png" alt=" img not find " class="rounded mx-auto d-block">
 				</div>
-					<br><br><br>
 					
-
-					  <p class="sh-t fs-24 ta-l" style="color: whitesmoke;">  <b>Debian N<sub>e</sub>TS</b> 
-					   to bramka międzysieciowa która zastąpi w schemacie urządzienie "Gateway 10.0.0.1"<br>
-					   protection - wszelkie środki podjęte w celu ochrony rzeczy
+				  <div class="col-lg-12 ">	
+					   <br><br><br> 
+					  <p class="sh-t fs-18 ta-c" style="color: whitesmoke;">  <b>Debian N<sub>e</sub>TS</b> 
+					   to bramka międzysieciowa która zastąpi w schemacie urządzienie "Gateway 10.0.0.1".<br>
+					   Protection - wszelkie środki podjęte w celu ochrony rzeczy.
 					  </p>
-	         <img src="img/DENB.png" alt=" img not find " class="rounded mx-auto d-block">
-	      
-	      
+					  
+	            <img src="img/DENB.png" alt=" img not find " class="rounded mx-auto d-block w-100">
+	                        
+	           </div>
+	            <div class="col-lg-12 ">	
+					   <br><br><br> 
+					  <p class="sh-t fs-18 ta-c" style="color: whitesmoke;">
+					    <b>Debian EDU Skolinux Tools LDAP.</b>
+					  
+					  </p>
+					  
+	            <img src="img/tools.png" alt=" img not find " class="rounded mx-auto d-block w-100 mb-5">
+	            
+ <p class="sh-t fs-16 ta-l" style="color: whitesmoke;">
+	               <b>Co to jest LDAP?</b><br>
 
+LDAP (Lightweight Directory Access Protocol) to sposób komunikowania się z katalogiem. <br>
+Pierwotnie przeznaczony jako lekki zamiennik dla X500, stał się organicznie równie wszechstronny. <br>
+Jest zdefiniowany w wielu dokumentach RFC (indeksowanych w RFC 4510 ), ale w istocie jest to po prostu sposób pracy z katalogiem w celu:<br>
+<br>
+    Połącz się z katalogiem (o różnych poziomach bezpieczeństwa)<br>
+    Przeczytaj wpisy w katalogu<br>
+    Pisz wpisy w katalogu<br>
+    Przeszukaj katalog<br>
+    Zmień nazwy wpisów w katalogu<br>
+    Usuń wpisy w katalogu<br>
+<br>
+Reszta to tylko szczegóły :-)...<br>
+
+<br>
+Czym więc jest katalog?<br>
+<br>
+Katalog to rodzaj hierarchicznej bazy danych.<br>
+ Składa się z wpisów , które mają globalnie unikatową nazwę i zawierają atrybuty , które są nazwanymi zbiorami wartości danych. <br>
+ Prosty przykład koncepcyjny:<br>
+<br>
+Kraj { nazwa względna 'c=au' , description = 'Australia' }<br>
+    |<br>
+    |<br>
+    ---- Firma { nazwa względna = 'o=computer Associates', adres internetowy = 'www.ca.com' }<br>
+            |<br>
+            |<br>
+            ----- Osoba { imię i nazwisko = 'cn=Chris', ulubiony napój = 'japoński pantofelek' }<br>
+            |<br>
+            ----- Osoba { imię i nazwisko = 'cn=Trudi', ulubiony napój = 'piwo' }<br>
+            |<br>
+            ----- Osoba { względne imię = 'cn=Jay', ulubiony napój = 'woda mineralna' }<br>
+<br>
+To pokazuje prosty katalog z pięcioma wpisami. <br> 
+Każdy wpis ma unikalną nazwę w stosunku do swojego rodzica, zwaną „względną nazwą wyróżniającą” lub RDN. <br>
+Kombinacja wszystkich RDN przodków jest nazywana „nazwą wyróżniającą” – stąd nazwa wyróżniająca ostatniego wpisu powyżej to „c=au, o=computer Associates, cn=Jay”.<br>
+Jakie są zalety katalogów?<br>
+<br>
+Katalogi są między innymi zoptymalizowane pod kątem szybkiego wyszukiwania, mają silny model bezpieczeństwa i dobrze się skalują.<br>
+Ponieważ są one strukturą drzewa, różne części drzewa mogą być utrzymywane przez różne katalogi i różnych administratorów.<br>
+Struktura danych w postaci drzewa również pasuje do niektórych przypadków znacznie lepiej niż relacyjna baza danych.<br>
+ (BTW — jeśli znasz relacyjne bazy danych, ldap jest koncepcyjnie podobny do SQL).<br>
+Do czego to wszystko służy?<br>
+<br>
+Katalogi są często używane do przechowywania dużych ilości informacji o użytkownikach dla mechanizmów uwierzytelniania zabezpieczeń. <br>
+Duzi dostawcy usług internetowych, banki itp. używają ich do sprawdzania użytkowników uzyskujących dostęp do witryn internetowych i tak dalej.<br>
+Mogą być jednak używane w wielu innych zastosowaniach, takich jak trwałe przechowywanie obiektów Java, drzewa klasyfikacyjne, dowolne dane heirarchiczne itp. <br>
+<br>
+<b>Narzędzia wiersza poleceń LDAP</b><br>
+
+    OpenLDAP:<br>
+        ldapadd<br>
+        ldapcompare<br>
+        ldapdelete<br>
+        ldapexop<br>
+        ldapmodify<br>
+        ldapmodrdn<br>
+        ldappasswd<br>
+        ldapsearch<br>
+        ldapurl<br>
+        ldapwhoami<br>
+
+</p>        
+	           </div>
+	         <!-- 
+	          -->
+	      </div> 	<!-- End row -->
+			
 				
 			<!-- 	<div class="col-lg-12 fs-22"><br>
 					<p>Debian Live USB</p>
@@ -439,8 +518,7 @@
 				<img src="img/dnet.png" alt=" img not find " class="rounded mt-5">
 				</div> -->
 								 
-		
-			</div> 	<!-- End row -->
+					
 		</div>
 		<!-- End scena-5 -->
 
